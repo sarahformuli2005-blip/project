@@ -1,0 +1,192 @@
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "sora" sans-serif;
+    background: #fff;
+    color: #000;
+    font-size: 17px;
+    line-height: 1.50;
+    
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "sora" sans-serif;
+    font-weight: 600;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#top-header {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 13px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    background: #fff;
+    border: 2px solid var( --color-five);
+}
+
+#top-header,#div-a,#bts{
+    text-decoration:none;
+    color:var(--color-four);
+}
+#top-header #bts:hover {
+    transform: translatey(-5px);
+}
+#top-header #bts i {
+    background: var(--primary);
+    padding: 5px;
+    border-radius: 50%;
+    color: var(--color-two);
+    font-size: 17px;
+}
+#top-header #bts i:hover {
+    background: var(--color);
+}
+.top-social {
+    font-size: 23px;
+}
+.top-social i {
+    color: var(--primary);
+}
+.top-social i:hover {
+    color: var(--color);
+}
+.top-social a:hover {
+    transform: translatey(-5px);
+}
+#mobile-toggle i{
+font-size: 2rem;
+color:var(--primary);
+}
+#mobile-toggle i:hover{
+    color: var(--color);
+}
+#mainnav{
+    border-bottom:2px solid var(-- --color-five)!important;
+    background:var(  --color-two);
+    border: 2px solid var(  --color-five);
+    margin:0px;
+    
+}
+#mainnav #nav #nav-ul #nav-li #nav-a {
+    color: var(--color-one)!important;
+    border: 1px solid var(--primary);
+    border-radius: 10px;
+    text-align: center;
+    font-weight: 700;
+}
+
+#mainnav #nav #nav-ul #nav-li #nav-a:focus {
+    transform: translateY(-10px);
+    box-shadow: var(--shadow);
+    background: var(--color);
+    color:var( --text-button)!important;
+ border: 1px solid var(--primary);
+}
+.btn-close{
+    font-size: 20px;
+}
+#navoffcanvas #navoffcanvas-header{
+ background: var( --primary);
+ color: var(    --color-one);
+}
+.offcanvas-body li{
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid var(--primary)!important;
+   
+}
+#carousel-slid  {
+  margin-top: 2%;
+  margin-bottom: 4%;
+  position: relative;
+
+}
+#carousel-slid  #crousel-text{
+  width: 500px;
+  height:200px;
+  background: var(     --card-border);
+  opacity: 0.7;
+position: absolute;
+left:40px;
+bottom: 25%;
+text-align: justify;
+
+
+}
+#carousel-slid #carousel-slid-item #crousel-text h2  {
+    color: var(    --primary) !important;
+    opacity: 1;
+    z-index: 1;
+    font-weight: 600;
+    padding:1%;
+    text-align: center;
+    
+}
+#carousel-slid #carousel-slid-item #crousel-text h3  {
+    color: var(    --primary) !important;
+    opacity: 1;
+    z-index: 1;
+    font-weight: 600;
+    padding:1%;
+    text-align: center;
+    
+}
+#carousel-slid #carousel-slid-item #crousel-text  p{
+    color: var(--color-three) !important;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    z-index: 1;
+    opacity:1;
+    padding: 1%;}
+   .carousel-control-prev i  {
+        font-size: 40px;
+ color:var(--color)!important;
+ position: absolute;
+ left: 5px;
+ 
+}
+.carousel-control-next i{
+    font-size: 40px;
+ color:var(--color)!important;
+ position: absolute;
+ right: 5px;
+}
+
+.container .row #card-2,#card-3,#card-4,#card-5,#card-6{
+    background: var(--bg);
+    width: 190px;
+    height: 140px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    
+    
+}
+.container .row #card-2,#card-3,#card-4,#card-5,#card-6{
+    margin-left: 20px;
+    margin-right: 12px;
+}
+.container .row #card-1,#card-2,#card-3,#card-4,#card-5,#card-6 ,h6,h5{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+    color: var(--color-two);
+}
+
+.container .row #card-section-three #div-section-img #div-section-img-1  #div-section-img-2 img{
+   margin-left: 4%;
+}
