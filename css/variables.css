@@ -1,0 +1,41 @@
+:root {
+    --primary:#0d3783;
+    --primary-one:#009999;
+    --color-one:#0D1B3D;
+    --color-two: #fff;
+    --color-three: #000;
+    --color-four: #6d6c6c;
+    --color-five:#f5f4f4;
+    --color-six:#1E3A8A;
+    --color-seven:#1E88E5;
+    --color:#63CCFF;
+    --border:#A0A0A0; 
+      --box-sh:rgb(2, 180, 180);
+    
+    --bg:linear-gradient(to right,#1E3A8A,#2B589F,#3977B5,#4695CA,#54B4E0,#63CCFF);
+    --bg-1:linear-gradient(to right ,#000000,#0d3783,#009999);
+
+   
+    --text-primary:#111827;
+    --text-secondary:#4B5563;
+    --text-button:#ffffff;
+
+    --card:#ffff;
+    --card-border:#cccdce;
+    --card-shadow:0 3px 6px rgba(196, 191, 191, 0.5);
+
+    --button:#b3e0f7;
+    --button-hover:#2AAEE6;
+    --button-text:#ffff;
+
+    --button-two:#F4F6F8;
+    --button-h:#e5e7e8;
+    --button-t:#111827;
+
+    --border: #2083d4;
+
+    --shadow: 0 4px 4px rgba(24, 58, 170, 0.8);
+
+    --transition: .28s cubic-bezier(.4, 0, .2, 1);
+    
+}
