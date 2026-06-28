@@ -289,7 +289,6 @@ p {
 /*section two*/.container .row .div-left{
     overflow:hidden;
     border-radius:20px;
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
     min-height:420px;
 }
 
@@ -299,7 +298,7 @@ p {
 }
 
 .container .row .div-right {
-  margin-top: 4%;
+  margin-top: 6%;
   background: var(--color-two);
   min-width: 400px;
 }
@@ -309,12 +308,24 @@ p {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 800;
   font-style: inherit;
+  padding-bottom: 1%;
+  font-size: 2rem;
 }
 .container .row .div-right h1 {
   color: var(--primary);
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 800;
   font-style: inherit;
+  padding-bottom: 1%;
+  font-size: 2.5rem;
+}
+.container .row .div-right p{
+  color: var(--color-three);
+  line-height: 1.7;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 1rem;
+  font-weight: 700;
+  word-spacing: 2px;
 }
 .container .row .div-right .btn {
   color: var(--color-two);
@@ -978,6 +989,7 @@ p {
   outline: none !important;
 
 }
+/*LOCATION*/
 #contact{
     background:var(--color-two);
 }
@@ -1052,12 +1064,13 @@ p {
 
 
 /*footer*/
-footer{
-  background: var(--primary);
+#footer{
+  background-color:var(--primary);
   color: var(--color-two);
   margin-top: 5%;
   background-size: cover;
   width: 100%;
+  
 }
 
 .footer-p{
@@ -1094,6 +1107,7 @@ footer{
   letter-spacing: 0.08rem;
   text-transform: uppercase;
   margin-bottom: 22px;
+  
 }
 .footer-link{
   list-style: none;
@@ -1132,7 +1146,7 @@ footer{
 }
 .footer-bottom{
   border-top: 1px solid var(--color-two);
-  padding: 20px 0;
+  padding: 20px 0px;
   margin-top: 40px;
 }
 .footer-bottom p{
@@ -1140,7 +1154,8 @@ footer{
   color: var(--color-two);
   opacity: 1;
   margin: 0;
-  padding-left: 40%;
+  margin: 0 35%;
+  
   
 }
 .footer-bottom a{
@@ -1148,213 +1163,4 @@ footer{
   text-decoration: none;
   text-align: center;
   
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.div-right-location{
-  padding: 0px;
-  align-items: center;
-  text-align: left;
-  
-  
-  
-}
-.div-right-location h4{
-  color: var(--primary-one);
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-weight: 700;
-  padding-top: 5%;
-  padding-left: 10%;
-}
-.div-right-location  h3{
-  color: var(--primary);
-  font-size: 1.5rem;
-  font-weight: 800;
-  padding-left: 10%;
-  font-family: Arial, Helvetica, sans-serif;
-}
-.div-right-location .countact{
-  line-height: 1;
-  padding-bottom: 15px;
-}
-.div-right-location .countact i{
- color: var(--primary);
- font-size: 25px;
- padding-left: 18%;
- padding-right: 2%;
- text-align: center;
-}
-.div-right-location .countact h6{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 1rem;
-  font-weight: 700;
-  color:var(--primary);
-  padding-bottom: 0px;
-  line-height: 2px;
-  padding-top: 7px;
-}
-.div-right-location .countact .location-p{
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  font-size: 0.8rem;
-  font-weight: 700;
-  color:var(--color-three);
-  padding-bottom: 0px;
-  line-height: 5px;
-  word-spacing: 2px;
-  padding-top: 3px;
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.container
-  .row
-  #card-section-three
-  #div-section-img
-  #div-section-img-1
-  #div-section-img-2
-  img {
-  margin-left: 4%;
-}
-
-#hero .container-fild {
-  background: var(--card-border);
-  background-size: cover;
-  padding: 2%;
-  position: relative;
-  border-radius: 4px;
-}
-#hero .container-fild .row .div-left {
-  margin: 3%;
-  padding: 1%;
-}
-#hero .container-fild .row .div-left h5 {
-  color: var(--primary);
-}
-#hero .container-fild .row .div-left h1 {
-  color: var(--color-two);
-}
-#hero .container-fild .row .div-left p {
-  color: var(--primary);
-  text-align: justify;
-}
-
-#hero .container-fild .row #div-right {
-  position: absolute;
-  right: 0.5%;
 }
