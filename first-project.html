@@ -1,356 +1,454 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Royle Hospital</title>
-    <link href="css/style.css" rel="stylesheet">
-    <link href="css/variables.css" rel="stylesheet">
-    <!--Bootstrap link-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!--Botstrap icon-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
-    <!--Google font-->
-    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
-  </head>
-  <body>
-    <div id="top-header">
-        <div class="container">
-            <div class="d-flex flex-wrap align-items-center justify-content-between gap-2">
-                <!--contact-->
-                <div class="d-flex flex-wrap align-items-center gap-3" id="div-a">
-                    <a href="#" id="bts" >
-                        <i class="bi bi-heart me-1 "></i>
-                        24/7 Open Hospital
-                    </a>
-                    <a href="tell:+93 534 987 987"id="bts">
-                        <i class="bi bi-phone me-1  "></i>
-                       CALL US +93 534 987 987
-                    </a>
-                </div>
-                <!--social icon-->
-                <div class="top-social d-flex gap-3 ">
-                    <a href="#" aria-label="facebook"  ><i class="bi bi-facebook me-1"></i></a>
-                    <a href="#" aria-label="twitter"><i class="bi bi-twitter"></i></a>
-                    <a href="#" aria-label="linkedin"><i class="bi bi-linkedin"></i></a>
-                    <a href="#" aria-label="Google"><i class="bi bi-google"></i></a>
-                </div>
 
-            </div>
-        </div>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royle Hospital</title>
+  <link href="css/style.css" rel="stylesheet">
+  <link href="css/variables.css" rel="stylesheet"> <!--Bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--Botstrap icon-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!--Google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!---fon Awesome-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="top-header">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-between gap-2"> <!--contact-->
+        <div class="d-flex flex-wrap align-items-center gap-3" id="div-a"> <a href="#" id="bts"> <i
+              class="bi bi-heart me-1 "></i> 24/7 Open Hospital </a> <a href="tell:+93 534 987 987" id="bts"> <i
+              class="bi bi-phone me-1 "></i> CALL US +93 534 987 987 </a> </div> <!--social icon-->
+        <div class="top-social d-flex gap-3 "> <a href="#" aria-label="facebook"><i class="bi bi-facebook me-1"></i></a>
+          <a href="#" aria-label="twitter"><i class="bi bi-twitter"></i></a> <a href="#" aria-label="linkedin"><i
+              class="bi bi-linkedin"></i></a> <a href="#" aria-label="Google"><i class="bi bi-google"></i></a> </div>
+      </div>
     </div>
-    <!-- Start Navbar-->
-    <nav class="navbar navbar-expand-lg sticky-top " id="mainnav">
-        <div class="container" id="Logo">
-       
-            
-     <img id="logo-img" src="./img/cursor-cell.svg"Logo" width="40px" height="50px">
-     <a href="#" class="navbar-brand">ROYLE<span>HOSPITAL</span></a>
-   
-        
-                    <!---Mobile Toggle-->
-         <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navoffcanvas" aria-controls="navoffcanvas"id="mobile-toggle">
-            <i class="bi bi-list icon" ></i>
-              </button>
-              
-       
-         <!---Disktop nav-->
-         <div class="collapse navbar-collapse justify-content-end" id="nav">
-            <ul class="nav  align-items-center gap-3 me-1"id="nav-ul">
-                <li class="nav-item " id="nav-li">
-                    <a href="#" class="nav-link active nav-a"  >HOME</a>
-                </li>
-                <li class="nav-item " id="nav-li">
-                    <a href="#" class="nav-link  nav-a" >ABOUT US</a>
-                </li>
-                <li class="nav-item " id="nav-li">
-                    <a href="#" class="nav-link  nav-a ">DEPARTMENTS</a>
-                </li>
-                <li class="nav-item" id="nav-li">
-                    <a href="#" class="nav-link  nav-a " >NEWS</a>
-                </li>
-                 <li class="nav-item" id="nav-li">
-                    <a href="#" class="btn   " >LOGIN & REGISTER</a>
-                </li>
-                
-            </ul>
-       
-         </div>
-         </div>
-        </nav>
-         <!--mobil menu-->
-        <div class="offcanvas offcanvas-end" tabindex="-1" id="navoffcanvas">
-            <div class="offcanvas-header"id="navoffcanvas-header">
-                <h4>Menu</h4>
-                <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"></button>
-            </div>
-            <div class="offcanvas-body">
-                 <ul class="navbar-nav">
-                <li class="nav-item " >
-                    <a href="index.html" class="nav-link " >HOME</a>
-                </li>
-                <li class="nav-item " >
-                    <a href="aboutus.html" class="nav-link ">ABOUT US</a>
-                </li>
-                <li class="nav-item " id="nav-li">
-                    <a href="DEPARTMENTS.html" class="nav-link ">DEPARTMENTS</a>
-                </li>
-                <li class="nav-item">
-                    <a href="NEWS.html" class="nav-link ">NEWS</a>
-                </li>
-                 <li class="nav-item" >
-                    <a href="login&register.html" class="nav-link ">LOGIN & REGISTER</a>
-                 </li>
-            </ul>
-            </div>
+  </div> <!-- Start Navbar-->
+  <nav class="navbar navbar-expand-lg sticky-top " id="mainnav">
+    <div class="container" id="Logo"> <img id="logo-img" src="./img/cursor-cell.svg" Logo" width="40px" height="50px">
+      <a href="#" class="navbar-brand">ROYLE<span>HOSPITAL</span></a> <!---Mobile Toggle--> <button
+        class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navoffcanvas"
+        aria-controls="navoffcanvas" id="mobile-toggle"> <i class="bi bi-list icon"></i> </button> <!---Disktop nav-->
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="nav align-items-center gap-3 me-1" id="nav-ul">
+          <li class="nav-item " id="nav-li"> <a href="#" class="nav-link active nav-a">HOME</a> </li>
+          <li class="nav-item " id="nav-li"> <a href="#" class="nav-link nav-a">ABOUT US</a> </li>
+          <li class="nav-item " id="nav-li"> <a href="#" class="nav-link nav-a ">DEPARTMENTS</a> </li>
+          <li class="nav-item" id="nav-li"> <a href="#" class="nav-link nav-a ">NEWS</a> </li>
+          <li class="nav-item" id="nav-li"> <a href="#" class="btn ">LOGIN & REGISTER</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!--mobil menu-->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="navoffcanvas">
+    <div class="offcanvas-header" id="navoffcanvas-header">
+      <h4>Menu</h4> <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item "> <a href="index.html" class="nav-link ">HOME</a> </li>
+        <li class="nav-item "> <a href="aboutus.html" class="nav-link ">ABOUT US</a> </li>
+        <li class="nav-item " id="nav-li"> <a href="DEPARTMENTS.html" class="nav-link ">DEPARTMENTS</a> </li>
+        <li class="nav-item"> <a href="NEWS.html" class="nav-link ">NEWS</a> </li>
+        <li class="nav-item"> <a href="login&register.html" class="nav-link ">LOGIN & REGISTER</a> </li>
+      </ul>
+    </div>
+  </div> <!--section one-->
+  <section id="first-section">
+    <div class="container ">
+      <div class="row">
+        <div class=" col-6 text-align-center g-0 mx-4" id="item">
+          <h1>Your Health,<br> <span class="accent">Our Priority</span> </h1>
+          <p class="hero-desc">Providing high-quality healthcare services with<br> compassion, advanced technology,
+            and<br> experienced specialists.</p>
+          <div class="d-flex gap-4"> <a href="#" class="btn btn-secandry" id="btn">Book Appointment<i
+                class="bi bi-calendar3 fs-6.5"></i></a> <a href="#" class="btn btn-secandry">Learn More<i
+                class="bi bi-arrow-right fs-6.5"></i></a> </div>
         </div>
-        <section id="first-section">
-        <div class="container ">
-          <div class="row">
-            <div class=" col-6 text-align-center g-5" id="item">
-              
-              <h1>Your Health,<br>
-                <span class="accent">Our Priority</span></h1>
-              <p class="hero-desc">Providing high-quality healthcare services with<br> compassion, advanced technology, and<br> experienced specialists.</p>
-              <div class="d-flex gap-4 flex-wrap">
-              <a href="#" class="btn btn-hero-primary">Book Appointment<i class="bi bi-calendar3" ></i></a>
-              <a href="#" class="btn btn-secandry">Learn More<i class="bi bi-arrow-right fs-6.5"></i></a>
-              </div> 
+      </div>
+  </section> <!--Quick services-->
+  <div class="container">
+    <div class="row mx-2 d-flex flex-wrap">
+      <div class="col-lg-2 col-md-12 col-sm-12 d-flex flex-column gap-2 justify-content-center" id="card-2"> <img
+          src="./icon/ambulance (2).svg" alt="insurance img" width="40" height="auto">
+        <h5>Emergency Care</h5>
+        <p>24/7 Emergency services</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12 d-flex flex-column gap-2 justify-content-center" id="card-3"> <img
+          src="./icon/tooth (7).svg" alt="insurance img" width="40" height="auto">
+        <h5>Dental Care</h5>
+        <p>Complete oral Health care</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12 d-flex flex-column gap-2 justify-content-center" id="card-4"> <img
+          src="./icon/parent-child (1).svg" alt="insurance img" width="50" height="auto">
+        <h5>Pediatrics</h5>
+        <p>Specialized Care For Chlidren</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12 d-flex flex-column gap-2 justify-content-center" id="card-5"> <img
+          src="./icon/heart-plus (2).svg" alt="insurance img" width="40" height="auto">
+        <h5>Cardiology</h5>
+        <p>Hrart Care & Treatment</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12 d-flex flex-column gap-2 justify-content-center" id="card-6"> <img
+          src="./icon/intellect (2).svg" alt="insurance img" width="40" height="auto">
+        <h5>Neurology</h5>
+        <p>Brain & Nerve Disorders</p>
+      </div>
+      <div class="col-lg-2 col-md-12 col-sm-12 d-flex flex-column gap-2 justify-content-center" id="card-7"> <img
+          src="./icon/calendar-alt (3).svg" alt="insurance img" width="40" height="auto">
+        <h5>Appointment</h5>
+        <p>Book Your Appointment</p>
+      </div>
+    </div>
+  </div> <!--section two-->
+  <div class="container">
+    <div class="row my-5 d-flex flex-wrap">
+      <div class="col-lg-6 div-left"> <img src="./img/hospital.png" alt="hospital img" width="500px" height="300px"
+          style="border-radius: 10px; margin-top: 7%; "> </div>
+      <div class="col-6 div-right ">
+        <h4>ABOUT US</h4>
+        <h1>Welcome to <br>Royle Hospital</h1>
+        <p>Royal Hospital is committed to providing high-quality healthcare services with compassion, professionalism,
+          and modern medical technology. Our mission is to improve the health and well-being of our community by
+          delivering safe, reliable, and patient-centered care.</p> <a href="#" class="btn" id="btn-first-section">Read
+          More <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#fff" viewBox="0 0 24 24">
+            <!--Boxicons v3.0.8 https://boxicons.com | License https://docs.boxicons.com/free-->
+            <path d="M6 13h6v4l6-5-6-5v4H6z"></path>
+          </svg></a>
+      </div>
+    </div>
+  </div> <!--section three-->
+  <div class="container">
+    <div class="row ">
+      <h3 id="h3">OUR DEPARTMENTS</h3>
+      <h1 id="h1">Our Medical Specialties</h1>
+      <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-2 justify-content-center" id="card-8"> <a href="#">
+          <img src="./img/1aa8652025c0b047781b2a6498cc94c9.jpg" alt="insurance img" width="160" height="90"> </a>
+        <h5>General Care</h5>
+        <p>Comprehensive healthcare for all ages</p>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-2 justify-content-center" id="card-9"> <a href="#">
+          <img src="./img/pediatrics.jpg" alt="insurance img" width="160" height="90px"> </a>
+        <h5>Pediatrics</h5>
+        <p>Specialized care for infants children & adolescents.</p>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-2 justify-content-center" id="card-10"> <a href="#">
+          <img src="./img/dental.jpg" alt="insurance img" width="160" height="90px"> </a>
+        <h5>Dental Care</h5>
+        <p>Complete dental care for healthy smile.</p>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-2 justify-content-center" id="card-11"> <a href="#">
+          <img src="./img/cardiology.jpg" alt="insurance img" width="160" height="90px"> </a>
+        <h5>Cardiology</h5>
+        <p>Advanced care for heart conditions.</p>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-2 justify-content-center" id="card-12"> <a href="#"
+          rel="neurology"> <img src="./img/neurology.jpg" alt="insurance img" width="160" height="90px"> </a>
+        <h5>Neurology</h5>
+        <p>Treatment for brain & nervous system.</p>
+      </div>
+      <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-2 justify-content-center" id="card-13"> <a href="#">
+          <img src="./img/emergency.jpg" alt="insurance img" width="160" height="90"> </a>
+        <h5>Emergency Care</h5>
+        <p>24/7 Emergency & critical care services.</p>
+      </div>
+    </div>
+  </div> <!--statistics section-->
+  <section id="statistics">
+    <div class="container">
+      <div class="row g-10 d-flex flex-wrap ">
+        <div class="col-lg-2 col-md-2 ">
+          <div class="stats-icon stat-1"> <img src="./icon/doctor-svgrepo-com.svg" alt="icon" width="50px">
+            <h4 style=" font-weight: 900!important;font-size: 25px!important;">150+</h4><br> <span
+              class="stat-label">Expert Doctors</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2">
+          <div class="stats-icon stat-2 "> <img src="./icon/clinic-history-folder-with-plus-sign-svgrepo-com.svg"
+              alt="icon" width="50px" style="padding-right: 3px; padding-bottom: 3px;">
+            <h4 style=" font-weight: 900!important;font-size: 25px!important;">50+</h4><br> <span
+              class="stat-label">Department</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2">
+          <div class="stats-icon stat-3"> <img
+              src="./icon/patient-with-injured-bandaged-head-standing-with-saline-via-intravenous-line-svgrepo-com.svg"
+              alt="icon" width="50px">
+            <h4 style=" font-weight: 900!important;font-size: 25px!important;">25,000+</h4><br> <span
+              class="stat-label">Happy Patients</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 ">
+          <div class="stats-icon stat-4"> <img src="./icon/trophy-award-svgrepo-com.svg" alt="icon" width="50px">
+            <h4 style=" font-weight: 900!important;font-size: 25px!important;">15+</h4><br> <span
+              class="stat-label">Years of Excellence</span>
+          </div>
+        </div>
+        <div class="col-lg-2 col-md-2 mx-5">
+          <div class="stats-icon stat-5"> <img src="./icon/ambulance-svgrepo-com (1).svg" alt="icon" width="50px"
+              height="auto">
+            <h4 style=" font-weight: 900!important;font-size: 25px!important;">24/7</h4><br> <span
+              class="stat-label">Emergency Support</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section> <!--section four-->
+  <section id="doctors">
+    <div class="container">
+      <div class="row">
+        <h3 id="title">OUR SPECIALISTS</h3>
+        <h1 id="header">Meet Our Expert Doctors</h1>
+        <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-0 justify-content-center" id="div-doctor"> <img
+            src="./img/pngman.png" alt="img" width="160" height="auto">
+          <h5>Dr.Lee Guk-jong</h5>
+          <p>Cardiologist</p>
+          <div id="star"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+              class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i> </div> <a
+            href="#">
+            <div class="btn">View Profile</div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-0 justify-content-center" id="div-doctor"> <img
+            src="./img/pngdoctor.png" alt=" img" width="160" height="auto">
+          <h5>Dr.Sarah Formuli</h5>
+          <p>Cardiologist</p>
+          <div id="star"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+              class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div> <a
+            href="#">
+            <div class="btn">View Profile</div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-0 justify-content-center align-item-center"
+          id="div-doctor"> <img src="./img/man.png" alt="insurance img" width="150" height="auto" id="img-doctor">
+          <h5>Dr.Lee Guk-jong</h5>
+          <p>Cardiologist</p>
+          <div id="star"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+              class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-half"></i> </div> <a
+            href="#">
+            <div class="btn">View Profile</div>
+          </a>
+        </div>
+        <div class="col-lg-2 col-md-6 col-sm-6 d-flex flex-column gap-0 justify-content-center" id="div-doctor"> <img
+            src="./img/pngdoctor1.png" alt="insurance img" width="160" height="auto">
+          <h5>Dr.Lee Guk-jong</h5>
+          <p>Cardiologist</p>
+          <div id="star"> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i
+              class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> <i class="bi bi-star-fill"></i> </div> <a
+            href="#">
+            <div class="btn">View Profile</div>
+          </a>
+        </div> <a href="#" id="btn">
+          <div class="btn">View All</div>
+        </a>
+      </div>
+    </div>
+  </section> <!--section five-->
+  <div class="container">
+    <div class="row ">
+      <div class="col-lg-12 col-md-12 g-0 d-flex ">
+        <div class="appointment">
+          <div id="icon"> <img src="./img/toppng.com-schedule-a-nodegrid-demo-today-calendar-436x411.png" alt="img"
+              width="80px" height="80px"> </div>
+          <div class="text-section-four">
+            <h2 id="appoint-title">Need Medical Assistance?</h2>
+            <p id="p-aapoint">Book your appointment today and get the best<br> care from our experienced specialists.
+            </p>
+          </div> <a href="#" id="btn-appoint">
+            <div class="btn g-1">Book Appointment<i class=" bi bi-arrow-right fs-6.5"></i></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div> <!--section six-->
+  <section id="testimonials">
+    <div class="container">
+      <div class="text-center mb-5">
+        <div class="section-tag">TESTIMONIALS</div>
+        <h1>What Our Patients Say</h1>
+      </div>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <div class="testimonials-card">
+            <p class="t-review">Modern facilities, skilled doctors, and exceptional patient care. The entire staff
+              treated me with kindness and respect. I am grateful for the excellent service I received.</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#0d3783,#009999);"> AK </div>
+              <div>
+                <div class="t-nam">Ahmad Karim</div>
+              </div>
             </div>
           </div>
         </div>
-        </section>
-  <!---
-        <div class="container">
-       <div id="demo" class="carousel slide" data-bs-ride="carousel">
-
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-  </div>
-  
-  
-  <div class="carousel-inner" id="carousel-slid">
-    <div class="carousel-item active" id="carousel-slid-item" >
-      <img src="./img/ChatGPT Image Jun 13, 2026, 12_54_05 PM.png" alt="Los Angeles" class="d-block" style="width:100%" height="460px">
-      <div class="carousel-caption"id="crousel-text">
-        <h2>"Royal — Where Hope Is Reborn"</h2>
-        <p>In life's most difficult moments, we are your trusted companion.
-Here, every treatment is a new beginning and every step forward is a step toward a better life.</p>
-      </div>
-    </div>
-    <div class="carousel-item" id="carousel-slid-item" >
-      <img src="./img/۲.webp" alt="Chicago" class="d-block" style="width:100%" height="460px">
-      <div class="carousel-caption"id="crousel-text">
-        <h3>Care with Love, Treatment with Excellence</h3>
-        <p>We do more than treat illnesses — we care with compassion and dedication.
-Our mission is to bring comfort, restore hope, and bring smiles back to your life.</p>
-      </div> 
-    </div>
-    <div class="carousel-item" id="carousel-slid-item" >
-      <img src="./img/۳.webp" alt="Los Angeles" class="d-block" style="width:100%" height="460px">
-      <div class="carousel-caption"id="crousel-text">
-        <h2>"Your Health, Our Pride"</h2>
-        <p>At Royal Hospital, We believe that every breath you is precious.With a team of skilled specialists and
-                      modern medical equipment, we stand by your side
-               on the  ourney to better health.</p>
-      </div>
-    </div>
-  </div>
-  
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev" >
-    <i class="bi bi-chevron-left"></i>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
-    <i class="bi bi-chevron-right"></i>
-  </button>
-</div>-->
-
- <div class="container">
-  <div class="row">
-    <div class="col-2 d-flex flex-column  gap-2 justify-content-center"id="card-2">
-      <img src="./icon/ambulance (2).svg" alt="insurance img" width="40" height="auto">
-      <h5>Emergency Care</h5>
-      <p>24/7 Emergency services</p>
-
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-3">
-      <img src="./icon/tooth (7).svg" alt="insurance img" width="40" height="auto">
-      <h5>Dental Care</h5>
-      <p>Complete oral Health care</p>
-
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-4">
-      <img src="./icon/parent-child (1).svg" alt="insurance img" width="50" height="auto">
-      <h5>Pediatrics</h5>
-      <p>Specialized Care For Chlidren</p>
-
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-5">
-      <img src="./icon/heart-plus (2).svg" alt="insurance img" width="40" height="auto">
-      <h5>Cardiology</h5>
-      <p>Hrart Care & Treatment</p>
-
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-6">
-      <img src="./icon/intellect (2).svg" alt="insurance img" width="40" height="auto">
-      <h5>Neurology</h5>
-      <p>Brain & Nerve Disorders</p>
-
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-7">
-      <img src="./icon/calendar-alt (3).svg" alt="insurance img" width="40" height="auto">
-      <h5>Appointment</h5>
-      <p>Book Your Appointment</p>
-
-    </div>
-  </div>
- </div>
-
-
-
- <div class="container">
-  <div class="row my-5 d-flex flex-wrap">
-    <div class="col-6 div-left">
-      <img src="./img/hospital.png" alt="hospital img" width="500px" height="300px" style="border-radius: 10px; margin-top: 7%; min-width: 300px;">
-    </div>
-    <div class="col-6 div-right  ">
-      <h4>ABOUT US</h4>
-      <h1>Welcome to <br>Royle Hospital</h1>
-      <p>Royal Hospital is committed to providing high-quality healthcare services with compassion, professionalism, and modern medical technology.
-Our mission is to improve the health and well-being of our community by delivering safe, reliable, and patient-centered care.</p>
- <a href="#" class="btn" id="btn-first-section">Read More <svg  xmlns="http://www.w3.org/2000/svg" width="24" height="24"  
-fill="#fff" viewBox="0 0 24 24" >
-<!--Boxicons v3.0.8 https://boxicons.com | License  https://docs.boxicons.com/free-->
-<path d="M6 13h6v4l6-5-6-5v4H6z"></path>
-</svg></a> 
-    </div>
-  </div>
- </div>
-    
-  
-<div class="container">
-  <div class="row">
-    <h3 id="h3">OUR DEPARTMENTS</h3>
-    <h1 id="h1">Our Medical Specialties</h1>
-    <div class="col-2 d-flex flex-column  gap-2 justify-content-center  " id="card-8">
-      <a href="#">
-      <img src="./img/1aa8652025c0b047781b2a6498cc94c9.jpg" alt="insurance img">
-       </a>
-      <h5>General Care</h5>
-      <p>Comprehensive healthcare for all ages</p>
-      
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-9">
-     <a href="#">
-      <img src="./img/pediatrics.jpg" alt="insurance img" width="160" height="90px">
-      </a>
-      <h5>Pediatrics</h5>
-      <p>Specialized care for infants children & adolescents.</p>
-      
-    </div>
-   
-    
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-10">
-         <a href="#">
-      <img src="./img/dental.jpg" alt="insurance img" width="160" height="90">
-        </a>
-      <h5>Dental Care</h5>
-      <p>Complete dental care for healthy smile.</p>
-    
-    </div>
-    <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-11">
-       <a href="#">
-      <img src="./img/cardiology.jpg" alt="insurance img" width="160" height="90">
-         </a>
-      <h5>Cardiology</h5>
-      <p>Advanced care for heart conditions.</p>
-    
-    </div>
-     <div class="col-2  d-flex flex-column gap-2 justify-content-center"id="card-12">
-        <a href="#" rel="neurology">
-      <img src="./img/neurology.jpg" alt="insurance img" width="160" height="90px">
-        </a>
-      <h5>Neurology</h5>
-      <p>Treatment for brain & nervous system.</p>
-    </div>
-    <div class="col-lg-2  d-flex flex-column gap-2 justify-content-center"id="card-13">
-        <a href="#">
-      <img src="./img/emergency.jpg" alt="insurance img" width="160" height="90">
-       </a>
-      <h5>Emergency Care</h5>
-      <p>24/7 Emergency & critical care services.</p>
-     
-    </div>
-  </div>
- </div>
-
-
- <!---section four-->
- <div class="container-fluid">
- 
- </div>
-
-  <!--section three-->
-  <section>
-  <div class="container">
-    <div class="row">
-      <div class="col-12 col-md-4   d-flex flex-column gap-4        justify-content-center"id="card-section-three">
-        
-          <img src="./img/img-general-hospital-07-320x213.jpg" alt="img" >
-          <img src="./icon/plus-big.svg" alt="icon" width="70" height="auto" style="margin-left: 6%; margin-top: -10%;padding: 10px;background: var(--color);border-radius: 50%;" >
-         
-          <p >Your partner in better health</p>
-          <div style="width: 150px; height: 5px; background:var(--bg) ;"></div>
-          <h3>Health Care</h3>
-          <p style="text-align: justify;">This section includes general health and medical care services aimed at maintaining and improving people’s overall health. It provides health advice, disease prevention guidance, and support for a healthy lifestyle.</p>
-     </div>
-     <div class="col-12 col-md-4  d-flex flex-column gap-4        justify-content-center"id="card-section-three">
-          <img src="./img/img-general-hospital-08-320x213.jpg" alt="img" id="img-section">
-          <img src="./icon/medical-kit.svg" alt="icon" width="70" height="auto"id="img-section-card"style="margin-left: 6%; margin-top: -11%;padding: 15px;background: var(--color);border-radius: 50%;">
-          <p>Caring for every child</p>
-          <div style="width: 150px; height: 5px; background:var(--bg) ;"></div>
-          <h3>Pediatric Specialist</h3>
-      >    <p style="text-align: justify; ">This section is dedicated to the care and treatment of children. A pediatric specialist monitors child growth, diagnoses illnesses, and provides appropriate treatment to ensure healthy development.</p>
-     </div>
-      <div class="col-12 col-md-4   d-flex flex-column gap-4        justify-content-center "id="card-section-three">
-          <img src="./img/img-general-hospital-06-320x213.jpg" alt="img"id="img-section" >
-          <img src="./icon/tooth.svg" alt="icon" width="70" height="auto"id="img-section-card"style="margin-left: 6%; margin-top: -11%;padding: 12px;background: var(--color);border-radius: 50%;">
-          <p>Healthy teeth, brighter smiles</p>
-          <div style="width: 150px; height: 5px; background:var(--bg) ;"></div>
-          <h3>Dentist</h3>
-          <p style="text-align: justify;">This section focuses on oral and dental health. It offers services such as dental check-ups, treatment of tooth problems and pain, restorative care, and prevention of dental and oral diseases.</p>
-     </div>
-     </div>
-  </div>    
-  </section>
-
-   <section id="hero">
-    <div class="container-fild">
-      <div class="row ">
-        <!--left content-->
-        <div class="col-lg-6 align-item-center gap-5">
-          <div class="div-left">
-          <h5>Dr Alicia Harley</h5>
-      <h1>Our Team</h1>
-      <p>Our team consists of dedicated and skilled professionals who work together to deliver the best possible services. We are committed to quality, innovation, and customer satisfaction, striving to create value through our expertise and experience.</p>
-      </div>
-        </div>
-        <div class="col-lg-5 " >
-          <div id="div-right">
-           <img src="./img/img-general-hospital-05.png" width="290px" height="260px">
+        <div class="col-md-4">
+          <div class="testimonials-card">
+            <p class="t-review">Royal Hospital provided outstanding healthcare services and made me feel comfortable
+              from the very first visit. The medical team was attentive, friendly, and highly experienced.</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#07b0ce,#009959);"> FS </div>
+              <div>
+                <div class="t-nam">Fatima Sedigi</div>
               </div>
-      
+            </div>
+          </div>
         </div>
-      </div>
-    </div>
-   </section>
-   
-   
-    
-    
-  </body>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
-</html>
+        <div class="col-md-4">
+          <div class="testimonials-card">
+            <p class="t-review">Modern facilities, skilled doctors, and exceptional patient care. The entire staff
+              treated me with kindness and respect. I am grateful for the excellent service I received.</p>
+            <div class="d-flex align-items-center gap-3">
+              <div class="t-avatar" style="background: linear-gradient(135deg,#07688E,#63CCFF);"> MR </div>
+              <div>
+                <div class="t-nam"> Mohammad Rahmani</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> <!--section seven-->
+      <section id="latest-news">
+        <div class="container">
+          <div class="text-center mb-5">
+            <div class="section-tag">LATEST NEWS</div>
+            <h1>News & Updates</h1>
+          </div>
+          <div class="row g-4">
+            <div class="col-md-4 d-flex">
+              <div class="latest-card "> <img src="./img/3 (2).jpg" alt="" width="250px" height="auto"
+                  style="margin-left: 12%;">
+                <div class="div-left-news ">
+                  <h3>New Cardiology Department Opened</h3>
+                  <p class="t-letal">A new Cardiology Department has been opened to provide advanced heart care and
+                    modern treatment services.</p>
+                  <div class="btn"> <a href="#">Read More<i class="bi bi-arrow-right fs-7"></i></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex">
+              <div class="latest-card ">
+                <div class="div-right-news"> <img src="./img/5c7aa5e42165b5cb4d043f88d9abe8e2.jpg" alt="" width="250px"
+                    height="auto" style="margin-left: 12%;"> </div>
+                <div class="div-left-news ">
+                  <h3>Health Awareness Campaign</h3>
+                  <p class="t-letal">Royle Hospital is organizing a campaing to promot healthy living and disease
+                    prevention .</p>
+                  <div class="btn"> <a href="#">Read More<i class="bi bi-arrow-right fs-7"></i></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 d-flex">
+              <div class="latest-card">
+                <div class="div-right-news"> <img src="./img/5c7aa5e42165b5cb4d043f88d9abe8e2.jpg" alt="" width="250px"
+                    height="auto" style="margin-left: 12%;"> </div>
+                <div class="div-left-news">
+                  <h3>New Specialists Join Our Team</h3>
+                  <p class="t-letal">Experienced specialists have joined our team to provide better healthcare services.
+                  </p>
+                  <div class="btn"> <a href="#">Read More<i class="bi bi-arrow-right fs-7"></i></a> </div>
+                </div>
+              </div>
+            </div>
+            <div class="btn col-2" id="button"> <a href="#">View All</a> </div>
+          </div>
+        </div>
+      </section> <!--section location-->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2>Contact Us</h2>
+            <p>Get in touch with Royal Hospital anytime.</p>
+          </div>
+          <div class="row g-4"> <!-- Contact Information -->
+            <div class="col-lg-4">
+              <div class="contact-card p-4 h-100">
+                <h4>Get In Touch</h4>
+                <div class="contact-item mb-3"> <i class="bi bi-geo-alt-fill"></i>
+                  <div>
+                    <h6>Address</h6>
+                    <p>Kabul, Afghanistan</p>
+                  </div>
+                </div>
+                <div class="contact-item mb-3"> <i class="bi bi-telephone-fill"></i>
+                  <div>
+                    <h6>Phone</h6>
+                    <p>+93 534 987 987</p>
+                  </div>
+                </div>
+                <div class="contact-item mb-3"> <i class="bi bi-envelope-fill"></i>
+                  <div>
+                    <h6>Email</h6>
+                    <p>info@royalhospital.com</p>
+                  </div>
+                </div>
+                <div class="contact-item"> <i class="bi bi-clock-fill"></i>
+                  <div>
+                    <h6>Working Hours</h6>
+                    <p>24 Hours, 7 Days a Week</p>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- Google Map -->
+            <div class="col-lg-8">
+              <div class="map-card h-100"> <img src="./img/location.png" alt="location img" width="100%" height="100%"
+                  style="border:0;"> </div>
+            </div>
+          </div>
+        </div>
+      </section> <!---FOOTER-->
+      <footer id="footer">
+        <div class="container">
+          <div class="row g-4"> <!--col1-->
+            <div class="col-lg-3 col-md-6">
+              <div class="footer-logo"> <img id="logo-img" src="./img/cursor-cell.svg" Logo" width="40px" height="50px">
+                <a href="#" class="navbar-brand"
+                  style="color: var( --color-two); font-size: 1rem;font-weight: 800;font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;">ROYLE<span>HOSPITAL</span></a>
+              </div>
+              <p class="footer-p"> Royle Hospital is dedicated to providing high-quality healthcare services with
+                compassion and advanced medical technology </p>
+              <div class="footer-social"> <a href="#" aria-label="Facebook"><i class="bi bi-facebook"></i></a> <a
+                  href="#" aria-label="Instagram"><i class="bi bi-instagram"></i></a> <a href="#"
+                  aria-label="Linkedin"><i class="bi bi-linkedin"></i></a> <a href="#" aria-label="Twitter"><i
+                    class="bi bi-twitter"></i></a> </div>
+            </div> <!--col2 Quick Links-->
+            <div class="col-lg-2 col-md-6 col-sm-6">
+              <div class="footer-heading">Quick Links</div>
+              <ul class="footer-link">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Departments</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact Us</a></li>
+              </ul>
+            </div> <!--col3-->
+            <div class="col-lg-3 col-md-6 col-sm-6">
+              <div class="footer-heading">Our Services</div>
+              <ul class="footer-link">
+                <li><a href="#">Emergency Care</a></li>
+                <li><a href="#">Pediatrics</a></li>
+                <li><a href="#">Dental Care</a></li>
+                <li><a href="#">Cardiology</a></li>
+                <li><a href="#">Neurology</a></li>
+              </ul>
+            </div> <!--col4-->
+            <div class="col-lg-4 col-md-6">
+              <div class="footer-heading">Contact Us</div>
+              <div class="footer-item"> <i class="bi bi-telephone-fill"></i> <span>+93 534 987 987</span> </div>
+              <div class="footer-item"> <i class="bi bi-envelope-fill"></i> <span>sarahformuli2005@gmail.com</span>
+              </div>
+              <div class="footer-item"> <i class="bi bi-geo-alt-fill"></i> <span>Kabul , Afghanistan</span> </div>
+              <div class="footer-item"> <i class="bi bi-clock-fill"></i> <span>24/7 Open Hospital</span> </div>
+            </div> <!--bottom footer-->
+            <div class="footer-bottom d-flex flex-wrap align-items-center justify-content-between gap-2">
+              <p>&copy:2024 <a href="#"> Royle Hospital</a> , All Rights Reserved</p>
+            </div>
+          </div>
+        </div>
+      </footer>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
 
+</html>

@@ -11,9 +11,10 @@
     --color:#63CCFF;
     --border:#A0A0A0; 
       --box-sh:rgb(2, 180, 180);
+      --color-nine:#6B7280;
     
     --bg:linear-gradient(to right,#1E3A8A,#2B589F,#3977B5,#4695CA,#54B4E0,#63CCFF);
-    --bg-1:linear-gradient(to right ,#000000,#0d3783,#009999);
+    --bg-1:linear-gradient(to right ,#0d3783,#07688E,#009999);
 
    
     --text-primary:#111827;
@@ -22,7 +23,9 @@
 
     --card:#ffff;
     --card-border:#cccdce;
-    --card-shadow:0 3px 6px rgba(196, 191, 191, 0.5);
+    --card-shadow:0 6px 12px rgba(196, 191, 191, 0.5);
+    --box-shadow:-4px 0px 5px rgba(196, 191, 191, 0.5);
+
 
     --button:#b3e0f7;
     --button-hover:#2AAEE6;
