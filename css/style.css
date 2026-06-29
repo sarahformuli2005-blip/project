@@ -363,7 +363,7 @@ p {
 
 .container .row #card-8 {
   width: 170px;
-  margin:1% 0.6%;
+  margin: 0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
@@ -408,7 +408,7 @@ p {
 
 .container .row #card-9 {
    width: 170px;
-  margin:1% 0.6%;
+  margin:0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
@@ -449,7 +449,7 @@ p {
 }
 .container .row #card-10 {
   width: 170px;
- margin:1% 0.6%;
+ margin: 0.6%;
   text-align: center;
   border-radius: 5px !important;
   box-shadow: var(--card-shadow);
@@ -493,7 +493,7 @@ p {
 }
 .container .row #card-11 {
   width: 170px !important;
-  margin:1% 0.6%;
+  margin: 0.6%;
   text-align: center !important;
   border-radius: 5px !important;
   box-shadow: var(--card-shadow) !important;
@@ -536,7 +536,7 @@ p {
 }
 .container .row #card-12 {
   width: 170px;
- margin:1% 0.6%;
+ margin: 0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
@@ -581,7 +581,7 @@ p {
 }
 .container .row #card-13 {
   width: 170px;
-  margin: 1% 0.6%;
+  margin:  0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
