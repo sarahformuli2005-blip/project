@@ -12,6 +12,8 @@ body {
   color: #000;
   font-size: 17px;
   line-height: 1.5;
+  margin: 0;
+
 }
 
 h1,
@@ -246,8 +248,10 @@ section {
 #card-6,
 #card-7 {
   background: var(--color-two);
-  width: 170px;
-  height: 160px;
+
+  width: 100%;
+  max-width: 170px;
+  height: auto;
   align-items: center;
   text-align: center;
   box-shadow: var(--card-shadow);
@@ -351,18 +355,22 @@ p {
   color: var(--primary);
   text-align: center;
   font-weight: 700;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
 }
+
+
+
+
 .container .row #card-8 {
-  width: 175px;
-  margin-top: 2%;
+  width: 170px;
+  margin:1% 0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
   padding: 1px;
   overflow: hidden;
-  box-sizing: border-box;
-  margin-right: 1%;
+
+  
 }
 .container .row #card-8 img {
   width: 175px;
@@ -399,19 +407,18 @@ p {
 }
 
 .container .row #card-9 {
-  width: 175px;
-  margin-top: 2%;
+   width: 170px;
+  margin:1% 0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
   padding: 1px;
   overflow: hidden;
-  padding-top: 0px;
-  margin-right: 1%;
 }
 .container .row #card-9 img {
   width: 187px;
-  height: 110px;
+  height: 114px;
+  border-radius: 5px;
 }
 .container .row #card-9 a:focus {
   border: none !important;
@@ -441,21 +448,20 @@ p {
   transform: translateY(-7px);
 }
 .container .row #card-10 {
-  width: 175px;
-  margin-top: 2%;
+  width: 170px;
+ margin:1% 0.6%;
   text-align: center;
-  border-radius: 5px;
+  border-radius: 5px !important;
   box-shadow: var(--card-shadow);
   transform: translateY(-5px);
-  padding: 1px;
   overflow: hidden;
-  box-sizing: border-box;
-  padding-top: 0px;
-  margin-right: 1%;
+  padding:1px ;
+ 
 }
 .container .row #card-10 img {
   width: 187px;
   height: 110px;
+  border-radius: 5px;
 }
 
 .container .row #card-10 h5 {
@@ -486,8 +492,8 @@ p {
   outline: none;
 }
 .container .row #card-11 {
-  width: 175px !important;
-  margin-top: 2% !important;
+  width: 170px !important;
+  margin:1% 0.6%;
   text-align: center !important;
   border-radius: 5px !important;
   box-shadow: var(--card-shadow) !important;
@@ -495,11 +501,12 @@ p {
   padding: 1px !important;
   overflow: hidden !important;
   box-sizing: border-box !important;
-  margin-right: 1%;
+ 
 }
 .container .row #card-11 img {
   width: 187px;
   height: 110px;
+  border-radius: 5px;
 }
 .container .row #card-11 a:focus {
   border: none !important;
@@ -528,8 +535,8 @@ p {
   transform: translateY(-7px) !important;
 }
 .container .row #card-12 {
-  width: 175px;
-  margin-top: 2%;
+  width: 170px;
+ margin:1% 0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
@@ -538,11 +545,12 @@ p {
   overflow: hidden;
   box-sizing: border-box;
   padding-top: 0px;
-  margin-right: 1%;
+  
 }
 .container .row #card-12 img {
   width: 187px;
   height: 110px;
+  border-radius: 5px;
 }
 .container .row #card-12 a:focus {
   border: none !important;
@@ -572,8 +580,8 @@ p {
   transform: translateY(-7px);
 }
 .container .row #card-13 {
-  width: 175px;
-  margin-top: 2%;
+  width: 170px;
+  margin: 1% 0.6%;
   text-align: center;
   border-radius: 5px;
   box-shadow: var(--card-shadow);
@@ -586,6 +594,7 @@ p {
 .container .row #card-13 img {
   width: 187px;
   height: 110px;
+  border-radius: 5px;
 }
 .container .row #card-13 a:focus {
   border: none !important;
@@ -627,6 +636,9 @@ p {
   font-size: 20px;
   font-weight: 700;
   justify-content: center;
+}
+.container .row .stat{
+  margin: 1%;
 }
 .container .row .stats-icon {
   display: flex;
@@ -670,8 +682,9 @@ p {
   font-weight: 800 !important;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-style: inherit;
+  margin-bottom: 4%!important;
 }
-.container .row #div-doctor {
+.container .row .div-doctor {
   width: 250px;
   height: auto;
   box-shadow: var(--card-shadow);
@@ -680,50 +693,48 @@ p {
   align-items: center;
   color: var(--primary);
 }
-.container .row #div-doctor:hover {
-  width: 250px;
-  height: auto;
+  
+.container .row .div-doctor:hover {
   box-shadow: var(--card-shadow);
-  margin: 1.5%;
   border-radius: 10px;
   align-items: center;
   color: var(--primary) !important;
   background: var(--button-two);
   transform: translateY(-7px);
 }
-.container .row #div-doctor #img-doctor {
+.container .row .div-doctor #img-doctor {
   padding-top: 2%;
 }
-.container .row #div-doctor h5 {
+.container .row .div-doctor h5 {
   color: var(--primary);
   font-weight: 900;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   padding-top: 4px;
 }
-.container .row #div-doctor p {
+.container .row .div-doctor p {
   color: var(--color-three);
   font-weight: 800 !important;
   font-size: 15px;
 }
-.container .row #div-doctor #star {
+.container .row .div-doctor #star {
   color: var(--primary-one);
   padding: 0px;
   align-items: center;
   display: flex;
   flex-direction: row;
 }
-.container .row #div-doctor .btn {
+.container .row .div-doctor .btn {
   border: 1px solid var(--primary-one);
   color: var(--primary-one);
   margin-bottom: 5%;
   
 }
-.container .row #div-doctor .btn :hover{
+.container .row .div-doctor .btn :hover{
    background: var(--primary-one)!important;
   color: var(--color-two)!important;
   border: var(--color-two)!important;
 }
-.container .row #div-doctor a .btn:focus {
+.container .row .div-doctor a .btn:focus {
   border: none;
   outline: none !important;
 }
@@ -900,6 +911,7 @@ p {
   margin-right: 3px;
 
 }
+/* section seven*/
 #latest-news{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: 800;
@@ -1064,16 +1076,22 @@ p {
 
 
 /*footer*/
+
 #footer{
   background-color:var(--primary);
   color: var(--color-two);
-  margin-top: 5%;
+  margin-top: 5% !important;
   background-size: cover;
-  width: 100%;
-  
-}
+  width: 100%!important;
+  height: 100%;
+  margin: 0;
 
-.footer-p{
+}
+ footer .container{
+  background: transparent;
+ }
+
+.container .row .footer-p{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1rem;
   color: var(--color-two);
@@ -1082,7 +1100,7 @@ p {
   margin-bottom: 20px;
   font-weight: 700;
 }
-.footer-social a{
+.container .row .footer-social a{
   display: inline-flex;
   width: 36px;
   height: 36px;
@@ -1095,11 +1113,11 @@ p {
   transition: all var(--transition);
 
 }
-.footer-social a:hover{
+.container .row .footer-social a:hover{
   background: var(--primary-one);
   transform: translateY(-5px);
 }
-.footer-heading{
+.container .row .footer-heading{
   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-size: 1rem;
   font-weight: 800;
@@ -1109,17 +1127,17 @@ p {
   margin-bottom: 22px;
   
 }
-.footer-link{
+ .container .row .footer-link{
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-link li{
+ .container .row.footer-link li{
   margin-bottom: 11px;
 }
 
-.footer-link a{
+ .container .row .footer-link a{
   font-size: 0.9rem;
   color: var(--color-two);
   opacity: 1;
@@ -1129,7 +1147,7 @@ p {
   gap: 6px;
   text-decoration: none;
 }
-.footer-item{
+ .container .row .footer-item{
   display: flex;
   align-items: center;
   gap: 12px;
@@ -1138,18 +1156,18 @@ p {
   color: var(--color-two);
   opacity: 1;
 }
-.footer-item i{
+ .container .row .footer-item i{
   color: var(--color-two);
   font-size: 1rem;
   margin-top: 2px;
   flex-shrink: 0;
 }
-.footer-bottom{
+ .container .row .footer-bottom{
   border-top: 1px solid var(--color-two);
   padding: 20px 0px;
   margin-top: 40px;
 }
-.footer-bottom p{
+ .container .row .footer-bottom p{
   font-size: 0.8rem;
   color: var(--color-two);
   opacity: 1;
@@ -1158,9 +1176,21 @@ p {
   
   
 }
-.footer-bottom a{
+ .container .row .footer-bottom a{
   color: var(--color-two);
   text-decoration: none;
   text-align: center;
   
 }
+  /*Responsive*/
+  @media (max-width:768px) {
+    .div-doctor{
+      width: 100%;
+      height: 100%;
+      margin-top: 2%;
+      display: block;
+      flex: 0 0 100%;
+      
+    }
+    
+  }
