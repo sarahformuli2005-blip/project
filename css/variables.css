@@ -12,6 +12,8 @@
     --border:#A0A0A0; 
       --box-sh:rgb(2, 180, 180);
       --color-nine:#6B7280;
+      --color-ten:#17334f;
+      --text-hover:#f4fcfc;
     
     --bg:linear-gradient(to right,#1E3A8A,#2B589F,#3977B5,#4695CA,#54B4E0,#63CCFF);
     --bg-1:linear-gradient(to right ,#0d3783,#07688E,#009999);
