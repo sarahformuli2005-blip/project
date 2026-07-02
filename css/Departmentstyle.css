@@ -570,6 +570,94 @@ h5{
   text-align: justify;
 }
 
+
+/*section five*/
+.container .row .appointment {
+  background-image: url(../img/bac.png);
+  background-size: cover;
+  background-position: center;
+  padding: 1%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 10px;
+  text-align: justify;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 20px;
+  font-weight: 800;
+  position: relative;
+  width: 100%;
+  border-radius: 10px;
+  margin-top: 3%;
+  
+  
+}
+.container .row .appointment #icon i{
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+   padding:50% 100%;
+    background:var(--primary-one);
+    color: var(--color-two)!important;
+    border-radius:50%;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-size:22px;
+    margin-left: 10%;
+    z-index: 4;
+}
+
+
+.container .row .appointment .text-section-four{
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+  color: var(--color-two);
+  margin-left: 5%;
+
+}
+.container .row .appointment .text-section-four #appoint-title {
+  color: var(--color-two) !important;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 800;
+  font-size: 1.5rem;
+  text-align: justify;
+  margin-top: 3%;
+  
+}
+.container .row .appointment .text-section-four #p-aapoint {
+  color: var(--color-two);
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: 600;
+  font-size: 0.9rem;
+  text-align: justify;
+  word-spacing: 2px;
+}
+.container .row .appointment #btn-appoint .btn {
+  color: var(--primary-one) !important;
+  border: 1px solid var(--primary-one);
+  background: var(--color-two);
+  gap: 5px;
+  text-align: center;
+  position: absolute;
+  right: 13%;
+  top: 30%;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 0.9rem;
+}
+.container .row .appointment #btn-appoint .btn:hover {
+  border: none !important;
+  background: var(--primary-one) !important;
+  color: var(--color-two) !important;
+  transform: scale(-5px) !important;
+}
+.container .row .appointment #btn-appoint:focus {
+  border: none;
+  outline: none !important;
+}
+
 /*section four*/
 #doctors {
   margin-top: 1%;
@@ -664,86 +752,6 @@ h5{
   background: var(--primary);
 }
 
-/*section five*/
-.container .row .appointment {
-  background-image: url(../img/bac.png);
-  background-size: cover;
-  background-position: center;
-  padding: 1%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  gap: 10px;
-  text-align: justify;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 20px;
-  font-weight: 800;
-  position: relative;
-  width: 100%;
-  border-radius: 10px;
-}
-.container .row .appointment #icon {
-  width: 100px;
-  height: 100px;
-  background: var(--primary-one);
-  color: var(--color-two);
-  border-radius: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 22px;
-  margin-left: 7%;
-}
-.container .row .appointment #icon img {
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
-.container .row .appointment.text-section-four {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 800;
-  color: var(--color-two);
-}
-.container .row .appointment .text-section-four #appoint-title {
-  color: var(--color-two) !important;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 800;
-  font-size: 1.5rem;
-  text-align: justify;
-  margin-top: 3%;
-}
-.container .row .appointment .text-section-four #p-aapoint {
-  color: var(--color-two);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 600;
-  font-size: 0.9rem;
-  text-align: justify;
-  word-spacing: 2px;
-}
-.container .row .appointment #btn-appoint .btn {
-  color: var(--primary-one) !important;
-  border: 1px solid var(--primary-one);
-  background: var(--color-two);
-  gap: 5px;
-  text-align: center;
-  position: absolute;
-  right: 13%;
-  top: 30%;
-  justify-content: center;
-  align-items: center;
-  font-weight: 800;
-  font-size: 0.9rem;
-}
-.container .row .appointment #btn-appoint .btn:hover {
-  border: none !important;
-  background: var(--primary-one) !important;
-  color: var(--color-two) !important;
-  transform: scale(-5px) !important;
-}
-.container .row .appointment #btn-appoint:focus {
-  border: none;
-  outline: none !important;
-}
 
 /*section six*/
 
