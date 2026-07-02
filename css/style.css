@@ -259,14 +259,8 @@ section {
   border: 2px solid var(--color-two);
 }
 /*Quick services*/
-.container .row #card-2,
-#card-3,
-#card-4,
-#card-5,
-#card-6,
-#card-7 {
+.container .row .card-quick-services {
   background: var(--color-two);
-
   width: 100%;
   max-width: 170px;
   height: auto;
@@ -277,33 +271,16 @@ section {
   justify-content: center;
   margin-top: 5%;
 }
-.container .row #card-2,
-#card-3,
-#card-4,
-#card-5,
-#card-6,
-#card-7 {
+.container .row .card-quick-services{
   margin-left: 6px;
   margin-right: 6px;
 }
-.container .row #card-1,
-#card-2,
-#card-3,
-#card-4,
-#card-5,
-#card-6,
-h5 {
+.container .row .card-quick-services h5{
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 800;
   color: var(--primary) !important;
 }
-.container .row #card-1,
-#card-2,
-#card-3,
-#card-4,
-#card-5,
-#card-6,
-p {
+.container .row .card-quick-services p{
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 800;
   color: var(--color-ten);
@@ -379,7 +356,7 @@ p {
 
 
 
-.container .row #card-8 {
+.container .row .card-section-three{
   width: 170px;
   margin: 0.6%;
   text-align: center;
@@ -390,16 +367,16 @@ p {
 
   
 }
-.container .row #card-8 img {
-  width: 175px;
+.container .row .card-section-three img {
+  width: 185px;
   height: 110px;
   border-radius: 5px;
 }
-.container .row #card-8 a:focus {
+.container .row .card-section-three a:focus {
   border: none !important;
   outline: none;
 }
-.container .row #card-8 h5 {
+.container .row .card-section-three h5 {
   color: var(--primary) !important;
   background: linear-gradient(
     to right,
@@ -414,273 +391,56 @@ p {
   font-weight: 800;
   text-decoration: none;
 }
-.container .row #card-8 p {
+.container .row .card-section-three p{
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 0.9rem;
   font-weight: 700;
   text-decoration: none;
 }
-.container .row #card-8:hover {
+.container .row .card-section-three:hover {
   transform: translateY(-7px);
 }
 
-.container .row #card-9 {
-   width: 170px;
-  margin:0.6%;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: var(--card-shadow);
-  padding: 1px;
-  overflow: hidden;
-}
-.container .row #card-9 img {
-  width: 187px;
-  height: 114px;
-  border-radius: 5px;
-}
-.container .row #card-9 a:focus {
-  border: none !important;
-  outline: none;
-}
 
-.container .row #card-9 h5 {
-  color: var(--primary) !important;
-  background: linear-gradient(
-    to right,
-    #fff,
-    #fff,
-    #1864f0cb,
-    #fff,
-    #fff
-  ) !important;
-  padding-top: 3px;
-  text-align: center;
-  font-weight: 800;
-}
-.container .row #card-9 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-.container .row #card-9:hover {
-  transform: translateY(-7px);
-}
-.container .row #card-10 {
-  width: 170px;
- margin: 0.6%;
-  text-align: center;
-  border-radius: 5px !important;
-  box-shadow: var(--card-shadow);
-  transform: translateY(-5px);
-  overflow: hidden;
-  padding:1px ;
- 
-}
-.container .row #card-10 img {
-  width: 187px;
-  height: 110px;
-  border-radius: 5px;
-}
-
-.container .row #card-10 h5 {
-  color: var(--primary) !important;
-  background: linear-gradient(
-    to right,
-    #fff,
-    #fff,
-    #1864f0cb,
-    #fff,
-    #fff
-  ) !important;
-  padding-top: 3px;
-  text-align: center;
-  font-weight: 800;
-}
-
-.container .row #card-10 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-.container .row #card-10:hover {
-  transform: translateY(-7px);
-}
-.container .row #card-10 a:focus {
-  border: none !important;
-  outline: none;
-}
-.container .row #card-11 {
-  width: 170px !important;
-  margin: 0.6%;
-  text-align: center !important;
-  border-radius: 5px !important;
-  box-shadow: var(--card-shadow) !important;
-  transform: translateY(-5px) !important;
-  padding: 1px !important;
-  overflow: hidden !important;
-  box-sizing: border-box !important;
- 
-}
-.container .row #card-11 img {
-  width: 187px;
-  height: 110px;
-  border-radius: 5px;
-}
-.container .row #card-11 a:focus {
-  border: none !important;
-  outline: none;
-}
-.container .row #card-11 h5 {
-  color: var(--primary) !important;
-  background: linear-gradient(
-    to right,
-    #fff,
-    #fff,
-    #1864f0cb,
-    #fff,
-    #fff
-  ) !important;
-  padding-top: 3px;
-  text-align: center;
-  font-weight: 800;
-}
-.container .row #card-11 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 0.9rem !important;
-  font-weight: 700 !important;
-}
-.container .row #card-11:hover {
-  transform: translateY(-7px) !important;
-}
-.container .row #card-12 {
-  width: 170px;
- margin: 0.6%;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: var(--card-shadow);
-  transform: translateY(-5px);
-  padding: 1px;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding-top: 0px;
-  
-}
-.container .row #card-12 img {
-  width: 187px;
-  height: 110px;
-  border-radius: 5px;
-}
-.container .row #card-12 a:focus {
-  border: none !important;
-  outline: none;
-}
-.container .row #card-12 h5 {
-  color: var(--primary) !important;
-  background: linear-gradient(
-    to right,
-    #fff,
-    #fff,
-    #1864f0cb,
-    #fff,
-    #fff
-  ) !important;
-  padding-top: 3px;
-  text-align: center;
-  font-weight: 800;
-}
-.container .row #card-12 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 0.78rem;
-  font-weight: 700;
-}
-.container .row #card-12:hover {
-  border: transparent;
-  transform: translateY(-7px);
-}
-.container .row #card-13 {
-  width: 170px;
-  margin:  0.6%;
-  text-align: center;
-  border-radius: 5px;
-  box-shadow: var(--card-shadow);
-  transform: translateY(-5px);
-  padding: 1px;
-  overflow: hidden;
-  box-sizing: border-box;
-  padding-top: 0px;
-}
-.container .row #card-13 img {
-  width: 187px;
-  height: 110px;
-  border-radius: 5px;
-}
-.container .row #card-13 a:focus {
-  border: none !important;
-  outline: none;
-}
-.container .row #card-13 h5 {
-  color: var(--primary) !important;
-  background: linear-gradient(
-    to right,
-    #fff,
-    #fff,
-    #1864f0cb,
-    #fff,
-    #fff
-  ) !important;
-  padding-top: 3px;
-  text-align: center;
-  font-weight: 800;
-}
-.container .row #card-13 p {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 0.78rem;
-  font-weight: 800;
-}
-
-.container .row #card-13:hover {
-  border: transparent;
-  transform: translateY(-7px);
-}
 
 /*statistics section*/
 #statistics {
-  margin-top: 2%;
+  margin-top: 3%;
   background: var(--primary);
   display: flex;
   flex-wrap: wrap;
-  text-align: center;
+  text-align: justify;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 20px;
   font-weight: 700;
   justify-content: center;
+  width: 100%;
 }
-.container .row .stat{
-  margin-left: 4%;
-}
+
 .container .row .stats-icon {
   display: flex;
-  flex-direction: row !important;
-  padding: 10px;
+  flex-direction:column;
   letter-spacing: 0px;
+  flex-wrap: wrap;
   color: var(--color-two);
   position: relative;
-  width: 300px;
-  text-align: justify;
-  padding-left: 6px;
-}
-
-.container .row .stats-icon .stat-label {
-  position: absolute;
-  left: 20%;
-  top: 70%;
   width: 150px;
-  color: var(--color-two);
-  font-weight: 800;
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-size: 1rem;
+  text-align:center;
+  align-items: center;
+  height: auto;
+ 
+  
 }
-
+.container .row .stats-icon h4{
+  color: var(--color-two);
+  font-size: 2rem;
+  font-weight: 900;
+}
+.container .row .stats-icon span{
+  color: var(--color-two);
+  font-size: 1rem;
+  font-weight: 800;
+}
 
 /*section four*/
 #doctors {
@@ -912,12 +672,13 @@ p {
   color: var(--primary-one);
 }
 .t-review{
-  color: var(--color-three);
+  color: var(--color-ten);
   font-size: 0.9rem;
   line-height: 1.7;
   margin: 18px 0 16px;
   display: flex;
   text-align: justify;
+  font-weight: 500;
   
   
 }
