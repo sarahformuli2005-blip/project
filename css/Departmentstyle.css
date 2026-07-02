@@ -1087,5 +1087,8 @@ h5{
     text-align:center;
     margin: 1.2%;
   }
-  
+  .container .row .card-section-two a img{
+    width: 100% !important;
+    height: auto !important;
+  }
 }
