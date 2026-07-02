@@ -152,7 +152,7 @@ section {
 }
 /*section one*/
 #first-section {
-  background-image: url(../img/imgbac.jpg);
+  background-image: url(../img/bac\ department.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   height: 480px;
