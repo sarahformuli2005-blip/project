@@ -103,23 +103,30 @@ a {
   font-weight: 700;
   border-radius: 5px;
 }
-#mainnav #nav #nav-ul .nav-item .nav-a:hover {
+#mainnav #nav #nav-ul .nav-item .nav-a:focus {
+  
   transition: 4s;
-  color: var(--primary) !important;
-  background: var(--primary-one);
+  color: var(--primary-one) !important;
+  transform: translateY(-3px);
   border-radius: 10px;
+  
+ 
 }
 
-#mainnav #nav #nav-ul .nav-item .active {
-  color: var(--primary-one);
+
+#mainnav #nav #nav-ul .nav-item  .active{
+color: var(--primary-one) !important;
   padding-bottom: 4px;
   position: relative;
+
+
+
 }
-#mainnav #nav #nav-ul .nav-item .active:focus::after {
+#mainnav #nav #nav-ul .nav-item  .active::after {
   content: "";
   position: absolute;
   left: 0;
-  bottom: -10px;
+  bottom: -15px;
   width: 100%;
   height: 3px;
   background: var(--primary-one);
@@ -130,9 +137,12 @@ a {
   font-weight: 700;
 }
 #mainnav #nav #nav-ul .nav-item .btn:hover {
+ 
   transition: 4s;
-  color: var(--primary-one) !important;
-  border: 1px solid var(--primary);
+ 
+  color: var(--primary-one);
+  color: var(--primary) !important;
+  border: 1px solid var(--primary-one);
 }
 
 .btn-close {
@@ -169,7 +179,6 @@ section {
   line-height: 1, 15;
   letter-spacing: 1rem;
   gap: 1px;
- 
 }
 
 .container .row #item h1 {
@@ -234,8 +243,8 @@ section {
   flex-direction: column;
   margin-top: 3%;
   box-shadow: 0 6px 12px rgba(196, 191, 191, 0.5);
-  border-radius:80% / 50%;
-  
+  border-radius: 80% / 50%;
+
   padding: 5px;
   border-top: 1px solid #009999;
   border-bottom: 1px solid #0d3783;
@@ -253,8 +262,8 @@ section {
   margin-top: 1.5%;
   margin-bottom: 1.5%;
 }
-#department-list #department .section-department h6{
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#department-list #department .section-department h6 {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 0.74rem;
   color: var(--primary);
   text-decoration: none;
@@ -268,7 +277,7 @@ section {
   color: var(--color-three);
   font-size: 0.7rem;
   text-decoration: none !important;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
 }
 .container .row #item #btn:hover {
@@ -313,7 +322,7 @@ section {
   font-weight: 700;
   margin-top: 4%;
   margin-bottom: 4%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 .container .row .card-section-two {
@@ -326,14 +335,13 @@ section {
   padding: 1px;
   overflow: hidden;
 }
-.container .row .card-section-two a img{
- height: auto;
+.container .row .card-section-two a img {
+  height: auto;
   overflow: hidden;
   border-radius: 5px;
-  width: 210px !important;;
-  height:auto;
+  width: 210px !important;
+  height: auto;
 }
- 
 
 .container .row .card-section-two a:focus {
   border: none !important;
@@ -341,9 +349,9 @@ section {
 }
 .container .row .card-section-two h5 {
   color: var(--primary-one) !important;
-  font-weight:700 ;
+  font-weight: 700;
   font-size: 1.2rem;
-  text-align: left!important;
+  text-align: left !important;
   padding-top: 3px;
   text-align: center;
   font-weight: 800;
@@ -361,9 +369,9 @@ section {
 }
 .container .row .card-section-two:hover {
   transform: translateY(-7px);
-  background-color:var(--text-hover);
+  background-color: var(--text-hover);
 }
-.container .row .card-section-two a{
+.container .row .card-section-two a {
   color: var(--primary-one);
   text-align: left;
   padding-bottom: 20px;
@@ -373,23 +381,21 @@ section {
 
 /*section three*/
 
-#section-three{
+#section-three {
   background-color: var(--color-two);
   margin-top: 1%;
-  text-align:center;
+  text-align: center;
   justify-content: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   margin: 2%;
-
 }
-#section-three-title h2{
+#section-three-title h2 {
   color: var(--primary);
-  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   text-align: center;
   font-weight: 600;
-  
 }
-#section-department{
+#section-department {
   background: var(--text-hover);
   background-size: cover;
   width: 100%;
@@ -398,56 +404,50 @@ section {
   margin-top: 2%;
   border-radius: 10px;
   overflow: hidden;
-  
 }
-#div-section-three{
- border-right: 1px solid var(--card-border) ;
- width: 170px!important;
- height: 150px;
- padding-right:10px;
- padding-left: 10px;
- text-align: center;
- overflow: hidden;
- display: flexbox;
- flex-wrap: wrap;
- 
- 
+#div-section-three {
+  border-right: 1px solid var(--card-border);
+  width: 170px !important;
+  height: 150px;
+  padding-right: 10px;
+  padding-left: 10px;
+  text-align: center;
+  overflow: hidden;
+  display: flexbox;
+  flex-wrap: wrap;
 }
 
-#section-three-icon{
+#section-three-icon {
   color: var(--primary-one);
   font-size: 30px;
-  text-align: center!important;
+  text-align: center !important;
 }
-#div-section-three h6{
+#div-section-three h6 {
   color: var(--primary-one);
   padding-top: 0.5%;
   padding-bottom: 0.5%;
   font-size: 1rem;
   font-weight: 600;
-  
 }
-#div-section-three p{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+#div-section-three p {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 0.88rem;
   font-weight: 600;
   color: var(--color-ten);
   text-align: left;
-  
 }
 
 /*services four*/
 
-
-.container .row .section-four-title{
+.container .row .section-four-title {
   color: var(--primary);
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 2rem;
   font-weight: 800;
 }
 
-.container .row  .card{
+.container .row .card {
   background: var(--color-two);
   width: 100%;
   max-width: 110px;
@@ -459,31 +459,28 @@ section {
   justify-content: center;
   margin-top: 5%;
 }
-.container .row   .card{
+.container .row .card {
   margin-left: 6px;
   margin-right: 6px;
 }
-.container .row  .card i{
+.container .row .card i {
   color: var(--primary-one);
   font-size: 30px;
 }
-.container .row  .card i:focus{
+.container .row .card i:focus {
   border: none;
-  outline: none!important;
+  outline: none !important;
 }
-.container .row .card
-h5{
+.container .row .card h5 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   color: var(--primary) !important;
   font-size: 1rem;
 }
 
-
-
 /*statistics section*/
 #statistics {
-  margin-top: 6%;
+  margin-top: 3%;
   background: var(--primary);
   display: flex;
   flex-wrap: wrap;
@@ -493,53 +490,47 @@ h5{
   font-weight: 700;
   justify-content: center;
   width: 100%;
-  height: 50%;
-  border-radius: 20px;
 }
 
 .container .row .stats-icon {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   letter-spacing: 0px;
   flex-wrap: wrap;
   color: var(--color-two);
   position: relative;
   width: 150px;
-  text-align:center;
+  text-align: center;
   align-items: center;
-  height:130px;
- 
-  
+  height: auto;
 }
-.container .row .stats-icon h4{
+.container .row .stats-icon h4 {
   color: var(--color-two);
   font-size: 2rem;
   font-weight: 900;
 }
-.container .row .stats-icon span{
+.container .row .stats-icon span {
   color: var(--color-two);
   font-size: 1rem;
   font-weight: 800;
 }
 /*section five*/
 
-#section-five-item{
+#section-five-item {
   text-align: center;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-weight: 700;
   line-height: 1;
-  
- 
 }
-#section-five-item #title{
+#section-five-item #title {
   color: var(--primary);
   font-weight: 700;
 }
-#section-five-item p{
+#section-five-item p {
   color: var(--primary-one);
-  margin-bottom: 2%!important;
+  margin-bottom: 2% !important;
 }
-.section-five-card{
+.section-five-card {
   background: var(--color-two);
   box-shadow: var(--card-shadow);
   border: 1px solid var(--primary);
@@ -547,29 +538,27 @@ h5{
   border-radius: 6px;
   width: 130px;
   height: auto;
-  margin-top: 3%!important;
+  margin-top: 3% !important;
   display: flex;
   flex-direction: row;
 }
-.section-five-card .icon-sec{
+.section-five-card .icon-sec {
   color: var(--primary-one);
   font-size: 30px;
   text-align: center;
   margin: 5px;
-  
 }
 
-.section-five-card  .sec-p h5{
+.section-five-card .sec-p h5 {
   color: var(--primary);
   font-size: 0.9rem;
   text-align: justify;
 }
-.section-five-card .sec-p p{
-  color: var(--primary-one)!important;
-  font-size: 0.8rem!important;
+.section-five-card .sec-p p {
+  color: var(--primary-one) !important;
+  font-size: 0.8rem !important;
   text-align: justify;
 }
-
 
 /*section five*/
 .container .row .appointment {
@@ -589,32 +578,28 @@ h5{
   width: 100%;
   border-radius: 10px;
   margin-top: 3%;
-  
-  
 }
-.container .row .appointment #icon i{
+.container .row .appointment #icon i {
   justify-content: center;
   align-items: center;
   text-align: center;
-   padding:50% 100%;
-    background:var(--primary-one);
-    color: var(--color-two)!important;
-    border-radius:50%;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    font-size:22px;
-    margin-left: 10%;
-    z-index: 4;
+  padding: 50% 100%;
+  background: var(--primary-one);
+  color: var(--color-two) !important;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+  margin-left: 10%;
+  z-index: 4;
 }
 
-
-.container .row .appointment .text-section-four{
+.container .row .appointment .text-section-four {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 800;
   color: var(--color-two);
   margin-left: 5%;
-
 }
 .container .row .appointment .text-section-four #appoint-title {
   color: var(--color-two) !important;
@@ -623,7 +608,6 @@ h5{
   font-size: 1.5rem;
   text-align: justify;
   margin-top: 3%;
-  
 }
 .container .row .appointment .text-section-four #p-aapoint {
   color: var(--color-two);
@@ -751,7 +735,6 @@ h5{
   outline: none !important;
   background: var(--primary);
 }
-
 
 /*section six*/
 
@@ -1075,16 +1058,15 @@ h5{
 /*Responsive*/
 @media (max-width: 768px) {
   .container .row .card-section-two {
-  width: 90%;
-  height: auto;
-
-}
+    width: 90%;
+    height: auto;
+  }
   #div-section-three{
-    width: 150px!important;
+    width: 150px !important;
     height: auto;
     border: 1px solid var(--primary-one);
     border-radius: 5px;
-    text-align:center;
+    text-align: center;
     margin: 1.2%;
   }
   .container .row .card-section-two a img{

@@ -105,24 +105,21 @@ a {
   border-radius: 5px;
 }
 #mainnav #nav #nav-ul .nav-item .nav-a:hover {
-  
   transition: 4s;
   color: var(--primary-one) !important;
   transform: translateY(-3px);
   border-radius: 10px;
-  
- 
 }
 
 
 #mainnav #nav #nav-ul .nav-item  .active{
-color: var(--primary-one);
+color: var(--primary-one) !important;
   padding-bottom: 4px;
   position: relative;
 
 
 }
-#mainnav #nav #nav-ul .nav-item  .active:focus::after {
+#mainnav #nav #nav-ul .nav-item  .active::after {
   content: "";
   position: absolute;
   left: 0;
@@ -137,9 +134,7 @@ color: var(--primary-one);
   font-weight: 700;
 }
 #mainnav #nav #nav-ul .nav-item .btn:hover {
- 
   transition: 4s;
- 
   color: var(--primary-one);
   color: var(--primary) !important;
   border: 1px solid var(--primary-one);
