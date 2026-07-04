@@ -292,7 +292,7 @@ border-radius: 20px;
   padding-bottom: 4%;
   
 }
-.card-section .card a h4{
+.card-section .card a{
   color: var(--primary-one);
   padding-left: 3%;
   text-decoration:none;
@@ -312,24 +312,91 @@ border-radius: 20px;
   color: var(--color-ten);
   padding-left: 4%;
 }
-.icon-section-three .btn-section{
-  padding-left: -2%;
-}
+
 .icon-section-three .btn-section a{
-  border: var(--primary-one);
+ 
   border: 2px solid var(--primary-one);
   text-decoration: none;
   padding: 5px;
   border-radius: 20%/80%;
   color: var(--primary-one);
+  transform: translateY(-5px) !important;
   
 
+}
+.icon-section-three .btn-section a:hover{
+  border: 2px solid var(--primary);
+  color: var(--primary);
+  
+}
+.icon-section-three .btn-section a:focus{
+  outline: none!important;
 }
 .icon-section-three  .icon{
   color: var(--primary-one);
   font-size: 1.5rem;
-  margin-left: 1%;
+  margin-left: 2%;
 }
+.icon-section-three  .icon:hover{
+  color: var(--primary);
+  
+}
+
+/*section four*/
+#text{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: center;
+  margin-top: 2%;
+  font-weight: 700;
+}
+#text h3{
+  font-size: 2rem;
+  color: var(--primary-one);
+  font-weight: 800;
+}
+#text p{
+  color: var(--primary);
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-top: 1%;
+}
+.item-four-section{
+  width: 270px!important;
+  height:150px;
+  box-shadow:var(--card-shadow);
+  background: var(--color-two);
+  padding: 1%;
+  margin:2% 4%;
+  border-radius:30px;
+  
+}
+.title-h4  h4{
+color: var(--primary-one);
+font-size: 1.5rem;
+font-weight: 700;
+margin-left: 4%;
+}
+.item-four-section .text-section-four{
+  text-align:justify;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 1%;
+}
+.item-four-section .text-section-four h4{
+  color: var(--primary-one);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.item-four-section .text-section-four h4 span{
+  color: var(--primary);
+  font-size: 1.2rem!important;
+}
+.item-four-section .text-section-four p{
+  color: var(--primary);
+  font-size: 0.9rem;
+  font-weight: 700;
+  
+}
+
 #footer {
   background-color: var(--primary);
   color: var(--color-two);
