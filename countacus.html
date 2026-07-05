@@ -1,0 +1,111 @@
+<!Doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Royle Hospital</title>
+  <link href="css/countacus.css" rel="stylesheet">
+  <link href="css/variables.css" rel="stylesheet"> <!--Bootstrap link-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!--Botstrap icon-->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+  <!--Google font-->
+  <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+  <!---fon Awesome-->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" rel="stylesheet">
+</head>
+
+<body>
+  <div id="top-header">
+    <div class="container">
+      <div class="d-flex flex-wrap align-items-center justify-content-between gap-2"> <!--contact-->
+        <div class="d-flex flex-wrap align-items-center gap-3" id="div-a"> <a href="#" id="bts"> <i
+              class="bi bi-heart me-1 "></i> 24/7 Open Hospital </a> <a href="tell:+93 534 987 987" id="bts"> <i
+              class="bi bi-phone me-1 "></i> CALL US +93 534 987 987 </a> </div> <!--social icon-->
+        <div class="top-social d-flex gap-3 "> <a href="#" aria-label="facebook"><i class="bi bi-facebook me-1"></i></a>
+          <a href="#" aria-label="twitter"><i class="bi bi-twitter"></i></a> <a href="#" aria-label="linkedin"><i
+              class="bi bi-linkedin"></i></a> <a href="#" aria-label="Google"><i class="bi bi-google"></i></a>
+        </div>
+      </div>
+    </div>
+  </div> <!-- Start Navbar-->
+  <nav class="navbar navbar-expand-lg sticky-top " id="mainnav">
+    <div class="container" id="Logo"> <img id="logo-img" src="./img/cursor-cell.svg" Logo" width="40px" height="50px">
+      <a href="#" class="navbar-brand">ROYLE<span>HOSPITAL</span></a> <!---Mobile Toggle--> <button
+        class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#navoffcanvas"
+        aria-controls="navoffcanvas" id="mobile-toggle"> <i class="bi bi-list icon"></i>
+      </button>
+      <!---Disktop nav-->
+      <div class="collapse navbar-collapse justify-content-end" id="nav">
+        <ul class="nav align-items-center gap-3 me-1" id="nav-ul">
+          <li class="nav-item "> <a href="./index.html" class="nav-link  nav-a ">HOME</a> </li>
+          <li class="nav-item "> <a href="./About Us.html" class="nav-link nav-a">ABOUT US</a> </li>
+          <li class="nav-item "> <a href="./Department.html" class="nav-link  nav-a">DEPARTMENTS</a> </li>
+          <li class="nav-item"> <a href="./countacus.html" class="nav-link active nav-a ">Contact Us</a> </li>
+          <li class="nav-item"> <a href="#" class="btn ">LOGIN & REGISTER</a> </li>
+        </ul>
+      </div>
+    </div>
+  </nav> <!--mobil menu-->
+  <div class="offcanvas offcanvas-end" tabindex="-1" id="navoffcanvas">
+    <div class="offcanvas-header" id="navoffcanvas-header">
+      <h4>Menu</h4> <button class="btn-close btn-close-white" type="button" data-bs-dismiss="offcanvas"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav">
+        <li class="nav-item "> <a href="./index.html" class="nav-link ">HOME</a> </li>
+        <li class="nav-item "> <a href="./About Us.html" class="nav-link ">ABOUT US</a> </li>
+        <li class="nav-item " id="nav-li"> <a href="DEPARTMENTS.html" class="nav-link ">DEPARTMENTS</a> </li>
+        <li class="nav-item"> <a href="./countacus.html" class="nav-link ">Contact Us</a> </li>
+        <li class="nav-item"> <a href="login&register.html" class="nav-link ">LOGIN & REGISTER</a> </li>
+      </ul>
+    </div>
+  </div>
+  <!--section one-->
+  <!--section two-->
+  <!--section location-->
+      <section id="contact" class="py-5">
+        <div class="container">
+          <div class="text-center mb-5">
+            <h2>Contact Us</h2>
+            <p>Get in touch with Royal Hospital anytime.</p>
+          </div>
+          <div class="row g-4"> <!-- Contact Information -->
+            <div class="col-lg-4">
+              <div class="contact-card p-4 h-100">
+                <h4>Get In Touch</h4>
+                <div class="contact-item mb-3"> <i class="bi bi-geo-alt-fill"></i>
+                  <div>
+                    <h6>Address</h6>
+                    <p>Kabul, Afghanistan</p>
+                  </div>
+                </div>
+                <div class="contact-item mb-3"> <i class="bi bi-telephone-fill"></i>
+                  <div>
+                    <h6>Phone</h6>
+                    <p>+93 534 987 987</p>
+                  </div>
+                </div>
+                <div class="contact-item mb-3"> <i class="bi bi-envelope-fill"></i>
+                  <div>
+                    <h6>Email</h6>
+                    <p>info@royalhospital.com</p>
+                  </div>
+                </div>
+                <div class="contact-item"> <i class="bi bi-clock-fill"></i>
+                  <div>
+                    <h6>Working Hours</h6>
+                    <p>24 Hours, 7 Days a Week</p>
+                  </div>
+                </div>
+              </div>
+            </div> <!-- Google Map -->
+            <div class="col-lg-8">
+              <div class="map-card h-100"> <img src="./img/location.png" alt="location img" width="100%" height="100%"
+                  style="border:0;"> </div>
+            </div>
+          </div>
+        </div>
+      </section>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"></script>
+</html>
