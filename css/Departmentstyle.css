@@ -860,8 +860,6 @@ section {
   color: var(--color-two);
   margin-top: 5% !important;
   background-size: cover;
-  width: 100% !important;
-  height: 100%;
   margin: 0;
 }
 

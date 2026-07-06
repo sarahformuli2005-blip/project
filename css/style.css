@@ -853,19 +853,17 @@ section {
 
 /*footer*/
 
-#footer{
-  background-color:var(--primary);
+
+#footer {
+  background-color: var(--primary);
   color: var(--color-two);
   margin-top: 5% !important;
   background-size: cover;
-  width: 100%!important;
-  height: 100%;
   margin: 0;
-
 }
- 
- .footer-p{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+.footer-p {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1rem;
   color: var(--color-two);
   opacity: 1;
@@ -873,7 +871,7 @@ section {
   margin-bottom: 20px;
   font-weight: 700;
 }
- .footer-social a{
+.footer-social a {
   display: inline-flex;
   width: 36px;
   height: 36px;
@@ -884,33 +882,31 @@ section {
   color: var(--color-two);
   font-size: 1rem;
   transition: all var(--transition);
-
 }
- .footer-social a:hover{
+.footer-social a:hover {
   background: var(--primary-one);
   transform: translateY(-5px);
 }
- .footer-heading{
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.footer-heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-size: 1rem;
   font-weight: 800;
   color: var(--color-two);
   letter-spacing: 0.08rem;
   text-transform: uppercase;
   margin-bottom: 22px;
-  
 }
- .footer-link{
+.footer-link {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.footer-link li{
+.footer-link li {
   margin-bottom: 11px;
 }
 
-.footer-link a{
+.footer-link a {
   font-size: 0.9rem;
   color: var(--color-two);
   opacity: 1;
@@ -920,7 +916,7 @@ section {
   gap: 6px;
   text-decoration: none;
 }
- .footer-item{
+.footer-item {
   display: flex;
   align-items: center;
   gap: 12px;
@@ -929,31 +925,28 @@ section {
   color: var(--color-two);
   opacity: 1;
 }
-  .footer-item i{
+.footer-item i {
   color: var(--color-two);
   font-size: 1rem;
   margin-top: 2px;
   flex-shrink: 0;
 }
- .footer-bottom{
+.footer-bottom {
   border-top: 1px solid var(--color-two);
   padding: 20px 0px;
   margin-top: 40px;
 }
-  .footer-bottom p{
+.footer-bottom p {
   font-size: 0.8rem;
   color: var(--color-two);
   opacity: 1;
   margin: 0;
   margin: 0 35%;
-  
-  
 }
-  .footer-bottom a{
+.footer-bottom a {
   color: var(--color-two);
   text-decoration: none;
   text-align: center;
-  
 }
   /*Responsive*/
   @media (max-width:768px) {
