@@ -28,9 +28,9 @@
     --card-border:#cccdce;
     --card-shadow:0 6px 12px rgba(196, 191, 191, 0.5);
     --box-shadow:-4px 0px 5px rgba(196, 191, 191, 0.5);
+      --card-shadow-contact:4px 4px 6px 12px rgba(179, 224, 247, 0.6);
 
-
-    --button:#b3e0f7;
+    --button:rgb(179, 224, 247);
     --button-hover:#2AAEE6;
     --button-text:#ffff;
 

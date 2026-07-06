@@ -162,10 +162,10 @@ section {
 }
 /*section one*/
 #first-section {
-  background-image: url(../img/Do.jpg);
+  background-image: url(../img/departmentbac.png);
   background-size:cover;
   background-repeat: no-repeat;
- background-position: center;
+  background-position: center;
   height: 540px;
   max-height: 550px;
   display: flex;

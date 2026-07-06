@@ -160,26 +160,33 @@ color: var(--primary-one) !important;
 section {
   padding: 50px 0;
 }
+/*section one*/
+#hero-section{
+    background:var(--bg-1);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+height: 280px;
+position: relative;
+}
+.section-one h1{
+    color: var(--color-two);
+    font-size: 2rem;
+    font-weight: 800;
+    margin-top: 6%;
+    text-align: center;
+    word-spacing: 3px;
+}
 /*LOCATION*/
 #contact {
   background: var(--color-two);
-}
-.text-center h2 {
-  color: var(--primary-one);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 900;
-  font-size: 2rem;
-}
-.text-center p {
-  color: var(--primary);
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  font-weight: 900;
-  font-size: 1rem;
 }
 .contact-card {
   background: #fff;
   border-radius: 20px;
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  width: 400px;
+  margin-left: 15%;
 }
 .contact-card h4 {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
@@ -187,6 +194,12 @@ section {
   font-weight: 800;
   color: var(--primary-one);
   margin-bottom: 13px;
+}
+.contact-card p{
+    color: var(--primary);
+    font-size: 0.9rem;
+    padding-bottom: 2%;
+    
 }
 .contact-item {
   display: flex;
@@ -197,7 +210,7 @@ section {
 .contact-item i {
   width: 50px;
   height: 50px;
-  background: var(--primary);
+  background: var(--bg-1);
   color: var(--color-two);
   border-radius: 50%;
   display: flex;
@@ -219,14 +232,28 @@ section {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
 
-.map-card {
-  overflow: hidden;
-  border-radius: 20px;
-  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
-  min-height: 420px;
-}
 
-.map-card img {
-  width: 100%;
-  height: 100%;
+.form-div h3{
+    color: var(--primary);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 800;
+}
+.form-div textarea{
+  border-color: var(--primary-one);
+  background: var(--text-hover);
+}
+.form-div input{
+     border-color: var(--primary-one);
+      background: var(--text-hover);
+}
+.form-div button{
+    border: 2px solid var(--primary-one);
+    border-radius:64px 64px 48px 10px;
+    padding: 6px 35px;
+    background: var(--bg-1);
+    color: #fff;
+    font-size: 1,3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
 }
