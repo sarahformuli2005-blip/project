@@ -18,6 +18,7 @@
     
     --bg:linear-gradient(to right,#1E3A8A,#2B589F,#3977B5,#4695CA,#54B4E0,#63CCFF);
     --bg-1:linear-gradient(to right ,#0d3783,#07688E,#009999);
+    --bg-2:linear-gradient(135deg ,#0d3783,#009999);
 
     --background:#e8effd ;
     --text-primary:#111827;
