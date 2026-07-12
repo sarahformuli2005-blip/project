@@ -170,6 +170,7 @@ a {
   border-radius: 0 5% 5% 0;
   text-align: center !important;
   padding-top: 5%;
+  justify-content: center!important;
 }
 .left-div h1 {
   color: var(--color-two);
@@ -177,6 +178,8 @@ a {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
   padding-top: 6%;
+
+
 }
 .left-div p {
   color: var(--color-two);
@@ -200,10 +203,13 @@ a {
   background: #fff;
   transform: translateY(-5px);
 }
-.right-div {
+
+.right-div{
   width: 450px !important;
   height: 480px !important;
   padding-top: 5%;
+  justify-content: center!important;
+  text-align: center;
 }
 .right-div h1 {
   color: var(--primary-one);
@@ -231,10 +237,15 @@ a {
   transform: translateY(-5px);
 }
 
+.form{
+  width: 400px;
+}
 .right-div input {
   border-color: var(--primary-one);
   background: var(--text-hover);
   margin-top: 6% !important;
+  justify-content: center;
+  text-align: center;
 }
 .right-div .btn {
   border: 2px solid var(--primary-one);
@@ -364,11 +375,18 @@ a {
   .form-group {
     width: 100% !important;
   }
-
+   .form{
+    width: 250px;
+   }
   .form-group input {
     width: 100%;
   }
-
+  .check input{
+    width:30%;
+  }
+  .check  a{
+    font-size: 1.2rem;
+  }
   .footer-bottom p {
     margin: 0;
     text-align: center;
