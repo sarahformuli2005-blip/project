@@ -160,11 +160,11 @@ section {
 }
 /*section one*/
 #first-section {
-  background-image: url(../img/file_0000000084d47208a5e9001f762b0e8b.png);
+  background-image: url(../img/8e540a9207297d5d63291b7410372c60.jpg);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
-  height: 540px;
+  height: 440px;
   max-height: 550px;
   display: flex;
 }
