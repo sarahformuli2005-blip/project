@@ -138,7 +138,7 @@ a {
 
 /*section one*/
 #hero-section {
-  background: var(--primary);
+  background:url(../img/5b5c24428c278e2224875e4517081f5d.jpg);
   background-size: cover;
   background-position: center;
   width: 100%;
@@ -163,6 +163,9 @@ a {
   font-size: 1rem;
   font-weight: 700;
 }
+.div-right-section{
+  width: 100%;
+  text-align: right;}
 /*section two*/
 .div-left{
   background: var(--color-two);

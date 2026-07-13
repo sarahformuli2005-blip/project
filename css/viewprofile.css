@@ -1,0 +1,227 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "sora" sans-serif;
+  background: #fff;
+  color: #000;
+  font-size: 17px;
+  line-height: 1.5;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "sora" sans-serif;
+  font-weight: 600;
+}
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#top-header {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 13px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  background: var(--primary);
+  border: 2px solid var(--color-five);
+  align-items: center;
+  text-transform: uppercase;
+}
+
+#top-header,
+#div-a,
+#bts {
+  text-decoration: none;
+  color: var(--color-two);
+}
+#top-header #bts:hover {
+  transform: translatey(-5px);
+}
+#top-header #bts i {
+  background: var(--primary);
+  padding: 5px;
+  border-radius: 50%;
+  color: var(--color-two);
+  font-size: 17px;
+}
+#top-header #bts i:hover {
+  background: var(--primary-one);
+}
+.top-social {
+  font-size: 23px;
+}
+.top-social i {
+  color: var(--color-two);
+}
+.top-social i:hover {
+  color: var(--primary-one);
+}
+.top-social a:hover {
+  transform: translatey(-5px);
+}
+#mobile-toggle i {
+  font-size: 2rem;
+  color: var(--primary);
+}
+#mobile-toggle i:hover {
+  color: var(--color);
+}
+#mainnav {
+  border-bottom: 2px solid var(-- --color-five) !important;
+  background: var(--color-two);
+  border: 2px solid var(--color-five);
+  margin: 0px;
+  background-size: cover;
+}
+#mainnav #Logo .navbar-brand {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: var(--primary);
+  word-spacing: 5px;
+}
+#mainnav #Logo .navbar-brand span {
+  padding-left: 5px;
+  color: var(--primary-one);
+}
+
+#mainnav #nav #nav-ul .nav-item .nav-a {
+  color: var(--primary) !important;
+  text-align: center;
+  font-weight: 700;
+  border-radius: 5px;
+}
+#mainnav #nav #nav-ul .nav-item .nav-a:focus {
+  
+  transition: 4s;
+  color: var(--primary-one) !important;
+  transform: translateY(-3px);
+  border-radius: 10px;
+  
+ 
+}
+
+
+#mainnav #nav #nav-ul .nav-item  .active{
+color: var(--primary-one) !important;
+  padding-bottom: 4px;
+  position: relative;
+
+
+
+}
+#mainnav #nav #nav-ul .nav-item  .active::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  width: 100%;
+  height: 3px;
+  background: var(--primary-one);
+}
+#mainnav #nav #nav-ul .nav-item .btn {
+  color: var(--primary);
+  text-align: center;
+  font-weight: 700;
+}
+#mainnav #nav #nav-ul .nav-item .btn:hover {
+ 
+  transition: 4s;
+ 
+  color: var(--primary-one);
+  color: var(--primary) !important;
+  border: 1px solid var(--primary-one);
+}
+
+.btn-close {
+  font-size: 20px;
+}
+#navoffcanvas #navoffcanvas-header {
+  background: var(--primary);
+  color: var(--primary-one);
+}
+.offcanvas-body li {
+  font-weight: 700;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-bottom: 2px solid var(--primary) !important;
+}
+#hero-section{
+    background: var(--color-two);
+    text-align: left;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.section-one{
+    background: var(--color-two);
+    box-shadow: var(--card-shadow);
+    width: 100%;
+    border: 1px solid var(--color-five);
+    padding: 1%;
+}
+.div-left img{
+    max-width: 350px;
+}
+.div-right h5{
+    color: var(--primary-one);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+.div-right h2{
+    color: var(--primary);
+    font-size: 1.8rem;
+    font-weight: 800;
+}
+.div-right p{
+    color: var(--color-ten);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+    line-height: 25px;
+    
+}
+strong{
+    color: var(--primary);
+    font-size: 1.2rem;
+    font-weight: 600;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+li{
+color: var(--color-ten);
+font-size: 1rem;
+font-weight: 500;
+}
+ .btn-div .btn a {
+  border: 2px solid var(--primary-one);
+  border-radius: 64px 64px 48px 10px;
+  padding: 6px 35px;
+  background: var(--bg-1);
+  color: #fff;
+  font-size: 1, 3rem;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: 600;
+  margin-top: 5%;
+  text-decoration: none;
+}
+@media (max-width:768px) {
+   .hero-section{
+      width: 100%;
+      margin-top: 2%;
+      display: block;
+      flex: 0 0 100%;
+      padding-bottom: 0%!important;
+      
+    }
+    .div-left img{
+        width: 100%;
+    }
+}

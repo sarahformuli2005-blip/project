@@ -154,20 +154,23 @@ section {
 }
 /*section one*/
 #hero-section {
-  background: var(--bg-1);
+  background-image: url(../img/ChatGPT\ Image\ Jul\ 13\,\ 2026\,\ 01_00_40\ PM.png);
   background-size: cover;
-  background-position: center;
+  background-position:50% 40% ;
+  background-repeat:no-repeat;
   width: 100%;
-  height: 280px;
+  height: 380px;
   position: relative;
 }
-.section-one h1 {
+.section-one h1{
   color: var(--color-two);
   font-size: 2rem;
   font-weight: 800;
-  margin-top: 6.5%;
+  margin-top: 8.5%;
   text-align: center;
   word-spacing: 3px;
+
+
 }
 /*LOCATION*/
 #contact {
@@ -313,4 +316,11 @@ section {
   color: var(--color-two);
   text-decoration: none;
   text-align: center;
+}
+@media (max-width: 768px){
+  #hero-section{
+    background: var(--bg-1)!important;
+    height: 280px!important;
+    text-align: center;
+  }
 }

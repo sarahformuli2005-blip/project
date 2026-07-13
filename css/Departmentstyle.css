@@ -2,8 +2,6 @@
 *::after,
 *::before {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
 }
 
 body {
@@ -162,7 +160,7 @@ section {
 }
 /*section one*/
 #first-section {
-  background-image: url(../img/departmentbac.png);
+  background-image: url(../img/file_0000000084d47208a5e9001f762b0e8b.png);
   background-size:cover;
   background-repeat: no-repeat;
   background-position: center;
@@ -852,15 +850,13 @@ section {
   outline: none !important;
 }
 
-
 /*footer*/
-
-#footer {
+footer {
   background-color: var(--primary);
   color: var(--color-two);
-  margin-top: 5% !important;
-  background-size: cover;
-  margin: 0;
+  background-size: cover!important;
+  margin-top: 6%!important;
+  width: 100%!important;
 }
 
 .footer-p {
